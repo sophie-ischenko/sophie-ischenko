@@ -1,21 +1,107 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Sophie Ischenko
 
-This contains everything you need to run your app locally.
+> Ich entwickle digitale Systeme für etablierte Personal Brands.
 
-View your app in AI Studio: https://ai.studio/apps/56feff89-05a9-421b-832b-b6429b3bae0e
+Ich verbinde **Technologie, Content-Strukturen und Webarchitektur**, um Websites zu bauen, die nicht nur sichtbar sind, sondern funktionieren: in Performance, Struktur und qualifizierten Anfragen.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🚀 Fundament Studio
 
+👉 https://fundament-studio.de
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# sophie-ischenko
+**Business-System für strategische Webarchitektur**
+
+Ich entwickle Websites als Systeme, nicht als statische Seiten.
+
+**Schwerpunkte:**
+
+- ⚙️ Conversion-orientierte Webarchitektur
+- 🧩 CMS-Systeme (WordPress · Ghost · Strapi)
+- ⚛️ React Frontend Entwicklung
+- 🧠 Content-Struktur & Informationsarchitektur
+- 📈 Performance & SEO-Systeme
+
+---
+
+## 🧭 Codex Magazin
+
+Ein publizistischer Raum für Haltung, Technologie und digitale Selbstbestimmung.
+
+Codex ist kein klassisches Blog-System, sondern ein **Meinungs- und Wissensraum im Kontext einer KI-geprägten Webwelt**.
+
+**Themen:**
+
+- 🤖 Web & KI im strukturellen Wandel
+- 🧭 digitale Souveränität
+- 🧱 Machtstrukturen im digitalen Raum
+- 📚 Bildung & Weiterentwicklung als Notwendigkeit
+
+---
+
+## 🏗️ Was ich baue
+
+Ich entwickle keine isolierten Websites, sondern Systeme:
+
+- CMS-Architekturen (WordPress · Ghost · Strapi)
+- React Frontend Systeme
+- Headless Webarchitekturen
+- Migration von Legacy-Systemen
+- Content- & Datenstrukturen
+
+---
+
+## 🧠 CMS-Logik
+
+Ich arbeite nicht tool-zentriert, sondern systemzentriert.
+
+**Ich wähle Technologien nach Problemstellung:**
+
+- WordPress → klassische Websites, SEO, schnelle Umsetzung
+- Ghost → Editorial & Publishing Systeme
+- Strapi + React → skalierbare Headless Architekturen
+
+---
+
+## ⚙️ Systemdenken
+
+Websites sind keine Oberflächen.
+
+Sie sind:
+
+- strukturierte Informationssysteme
+- Datenflüsse (CMS → API → Frontend)
+- Entscheidungsarchitekturen
+- technische Übersetzungen von Content & Marke
+
+---
+
+## 🌐 Kanäle
+
+- Business: https://fundament-studio.de
+- Magazin: Codex
+- Instagram: https://instagram.com/...
+- YouTube (geplant)
+- Podcast (geplant)
+
+---
+
+## 🧩 Stack
+
+`React` · `TypeScript` · `Strapi` · `WordPress` · `Ghost` · `Node.js` · `Docker` · `Kubernetes` · `Terraform`
+
+---
+
+## 🎯 Ziel dieser GitHub-Präsenz
+
+Dieses Profil ist keine Sammlung von Code.
+
+Es ist eine technische Referenz meiner Arbeit:
+
+- Systemarchitektur
+- CMS-Entscheidungen
+- Content-Strukturen
+- Frontend-Logik
+
+Es bildet die technische Ebene meines Gesamt-Systems aus **Fundament Studio (Business)** und **Codex (Publikation)**.
