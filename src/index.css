@@ -18,7 +18,10 @@
   --theme-radius-card: 0px;
   --theme-radius-button: 0px;
 }
-
+@font-face {
+  font-family: 'almodakarme';
+src: url('/almodakarme-regular.otf');
+  }
 /* =========================
    BASE
    ========================= */
