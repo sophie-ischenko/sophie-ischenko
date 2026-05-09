@@ -381,9 +381,9 @@ export default function Home() {
           <div className="md:text-right flex flex-col justify-between">
             <a href="https://fundament-studio.de" target="_blank" rel="noopener noreferrer" className="group inline-flex flex-col items-center md:items-end hover-trigger outline-none mb-12">
               <span className="text-[var(--theme-accent)] font-mono text-xs uppercase tracking-widest mb-4">Back to main</span>
-              <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary leading-[0.8] tracking-tighter uppercase text-[var(--theme-bg)] transition-all duration-700 text-stroke-thin group-hover:text-[var(--theme-text)]">
-                 Fundament Studio
-              </h2>
+                    <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary leading-[0.8] tracking-tighter uppercase text-[var(--theme-text)] transition-all duration-700">
+  Fundament Studio
+</h2>
             </a>
             
             <div className="mt-12 md:mt-0 flex flex-col md:items-end gap-2 text-xs">

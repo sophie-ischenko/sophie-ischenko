@@ -18,10 +18,23 @@
   --theme-radius-card: 0px;
   --theme-radius-button: 0px;
 }
+
+/* =========================
+   FONT
+   ========================= */
+
 @font-face {
   font-family: 'almodakarme';
-src: url('/almodakarme-regular.otf');
-  }
+  src: url('/almodakarme-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-almoda {
+  font-family: 'almodakarme', serif;
+}
+
 /* =========================
    BASE
    ========================= */
@@ -31,11 +44,21 @@ body {
   color: var(--theme-text);
   font-family: var(--theme-font-secondary);
   overflow-x: hidden;
+  line-height: 1.6;
 }
+
+/* TYPOGRAPHY RHYTHM (WICHTIG) */
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--theme-font-primary);
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
 }
+
+h1 { margin-bottom: 2.5rem; }
+h2 { margin-bottom: 2rem; }
+h3 { margin-bottom: 1.5rem; }
 
 /* =========================
    UTILITIES
@@ -57,7 +80,9 @@ h1, h2, h3, h4, h5, h6 {
    PROJECT STYLES
    ========================= */
 
-.hero-image { opacity: 0.1; }
+.hero-image {
+  opacity: 0.1;
+}
 
 .project-item {
   padding: 4rem 0;
@@ -77,4 +102,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .morphing-shape {
   background: var(--theme-accent);
+  opacity: 0.15;
+  filter: blur(120px);
+}
+
+/* =========================
+   LINKS / CLEAN BASE
+   ========================= */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* selection */
+*::selection {
+  background: var(--theme-accent);
+  color: var(--theme-bg);
 }

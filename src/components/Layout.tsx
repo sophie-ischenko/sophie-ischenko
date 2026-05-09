@@ -65,9 +65,12 @@ export function Layout({ children }: { children: ReactNode }) {
         initial={{ y: 0 }}
         animate={{ y: headerVisible ? 0 : "-100%" }}
       >
-        <Link to="/" className="pointer-events-auto font-primary text-xl">
-          FUNDAMENT STUDIO<span className="text-[var(--color-accent)]">.</span>
-        </Link>
+        <Link
+  to="/"
+  className="pointer-events-auto font-almoda text-xl"
+>
+  FUNDAMENT STUDIO<span className="text-[var(--color-accent)]">.</span>
+</Link>
       </motion.header>
 
       <AnimatePresence mode="wait">
