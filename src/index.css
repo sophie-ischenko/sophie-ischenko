@@ -1,205 +1,62 @@
 @import "tailwindcss";
 
 /* ========================================
-   CUSTOM OTF/LOCAL FONTS
+   LOCAL FONT
    ======================================== */
 
-
 @font-face {
-  font-family: 'almodakarme';
-  src: url('/almodakarme-regular.otf') format('opentype');  font-weight: 400;
+  font-family: 'AlmodaKarme';
+  src: url('/almodakarme-regular.otf') format('opentype');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
-
 /* ========================================
-   TAILWIND THEME
+   DESIGN TOKENS (STABIL)
    ======================================== */
 
-@theme {
-  /* Colors */
-  --color-bg: #1F3E44;
-  --color-text: #EAE4DC;
-  --color-accent: #BC8E74;
-  --color-secondary: #733843;
-  --color-accent-text: #1F3E44;
-  --color-border: #797570;
-  --color-card: #284c53;
-
-  /* Fonts */
-  --font-family-primary: 'Playfair Display', serif;
-  --font-family-secondary: 'Merriweather', serif;
-
-  /* Optional extra fonts */
-  --font-family-anton: 'Anton', sans-serif;
-  --font-family-space-grotesk: 'Space Grotesk', sans-serif;
-  --font-family-nunito: 'Nunito', sans-serif;
-  --font-family-space-mono: 'Space Mono', monospace;
-
-  /* Styling */
-  --radius-card: 0px;
-  --radius-button: 0px;
-  --heading-weight: 400;
-  --heading-tracking: -0.02em;
+:root {
+  --bg: #1F3E44;
+  --text: #EAE4DC;
+  --accent: #BC8E74;
+  --secondary: #733843;
+  --border: #797570;
 }
 
 /* ========================================
-   UTILITIES
+   GLOBAL STYLES
    ======================================== */
 
-.font-primary {
-  font-family: var(--font-family-primary);
-  font-weight: var(--heading-weight);
-  letter-spacing: var(--heading-tracking);
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: serif;
+  overflow-x: hidden;
 }
 
-.font-anton { font-family: var(--font-family-anton); }
-.font-space-grotesk { font-family: var(--font-family-space-grotesk); }
-.font-nunito { font-family: var(--font-family-nunito); }
-.font-space-mono { font-family: var(--font-family-space-mono); }
-
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
-}
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.text-stroke-thin {
-  color: transparent;
-  -webkit-text-stroke: 1px var(--color-border);
+h1, h2, h3 {
+  font-family: 'AlmodaKarme', serif;
 }
 
 /* ========================================
-   PROJECT STYLES
+   UTILITY CLASSES
    ======================================== */
 
-.hero-image {
-  opacity: 0.1 !important;
+.text-accent {
+  color: var(--accent);
 }
 
-.hero-content .font-primary {
-  line-height: 0.8;
-  letter-spacing: -0.06em;
-  text-transform: uppercase;
-  color: var(--color-text);
+.border-custom {
+  border-color: var(--border);
 }
 
-.project-item {
-  padding: 4rem 0;
-}
-
-.project-title {
-  font-size: clamp(3rem, 6vw, 8rem);
-  letter-spacing: -0.04em;
-  transition: color 0.3s ease, -webkit-text-stroke 0.3s ease, transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.project-item:hover .project-title {
-  color: transparent;
-  -webkit-text-stroke: 2px var(--color-text);
-  transform: translateX(40px);
-}
-
-.project-item:hover .project-number,
-.project-item:hover .project-category,
-.project-item:hover .project-year {
-  opacity: 0;
-}
-
-.project-icon {
-  width: 80px !important;
-  height: 80px !important;
-  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
-}
-
-.project-item:hover .project-icon {
-  transform: translate(20px, -20px) scale(1.2) !important;
-}
-
-.project-image-container {
-  width: 400px !important;
-  height: 500px !important;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.projects-divider {
-  height: 1px;
-  background-color: var(--color-border);
-}
-
-/* ========================================
-   TYPOGRAPHY SHOWCASE
-   ======================================== */
-
-.horizontal-slide .font-primary {
-  line-height: 0.85;
-  letter-spacing: -0.05em;
-  text-transform: uppercase;
-}
-
-.typography-showcase {
-  background-color: var(--color-text) !important;
-  color: var(--color-bg) !important;
-}
-
-.typography-showcase h2 {
-  font-size: clamp(4rem, 10vw, 12rem);
-  line-height: 0.8;
-  letter-spacing: -0.05em;
-  border-bottom-width: 2px;
-  border-color: var(--color-bg);
-  padding-bottom: 2rem;
-  text-transform: uppercase;
-}
-
-.morphing-shape {
-  background-color: var(--color-accent);
-}
-
-/* ========================================
-   SCROLLBAR
-   ======================================== */
-
+/* optional scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--color-bg);
-}
-
 ::-webkit-scrollbar-thumb {
-  background: var(--color-border);
-}
-
-/* ========================================
-   GLOBAL
-   ======================================== */
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: var(--font-family-secondary);
-  background-color: var(--color-bg);
-  color: var(--color-text);
-  transition: background-color 0.7s cubic-bezier(0.22, 1, 0.36, 1),
-              color 0.7s cubic-bezier(0.22, 1, 0.36, 1);
-  overflow-x: hidden;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-primary);
-  font-weight: var(--heading-weight);
-  letter-spacing: var(--heading-tracking);
-}
-
-*::selection {
-  background-color: var(--color-accent);
-  color: var(--color-bg);
+  background: var(--border);
 }
