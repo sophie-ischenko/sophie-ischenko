@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@fontsource/merriweather-sans": "^5.2.7",
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.3.0",
     "@vitejs/plugin-react": "^5.0.4",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
