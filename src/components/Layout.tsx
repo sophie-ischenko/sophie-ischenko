@@ -13,12 +13,14 @@ export function Layout({ children }: { children: ReactNode }) {
 
   useMotionValueEvent(scrollY, "change", (latest) => {
     const previous = scrollY.getPrevious() || 0;
+
     if (latest > previous && latest > 150) {
       setHeaderVisible(false);
     } else {
       setHeaderVisible(true);
     }
   });
+
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
@@ -29,58 +31,51 @@ export function Layout({ children }: { children: ReactNode }) {
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      orientation: 'vertical',
-      gestureOrientation: 'vertical',
       smoothWheel: true,
-      wheelMultiplier: 1,
-      touchMultiplier: 2,
     });
 
-    function raf(time: number) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    }
+    let rafId: number;
 
-    requestAnimationFrame(raf);
+    const raf = (time: number) => {
+      lenis.raf(time);
+      rafId = requestAnimationFrame(raf);
+    };
+
+    rafId = requestAnimationFrame(raf);
 
     return () => {
+      cancelAnimationFrame(rafId);
       lenis.destroy();
     };
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col transition-colors duration-700 bg-[var(--theme-bg)] text-[var(--theme-text)]">
+    <div className="min-h-screen flex flex-col bg-[var(--color-bg)] text-[var(--color-text)]">
       <Preloader />
       <NoiseOverlay />
       <MorphingShape />
-      
-      {/* Progress Indicator / Scroll Bar */}
+
       <motion.div
-        className="fixed top-0 left-0 right-0 h-1.5 bg-[var(--theme-accent)] origin-left z-50"
+        className="fixed top-0 left-0 right-0 h-1 bg-[var(--color-accent)] origin-left z-50"
         style={{ scaleX }}
       />
 
-      {/* Header (Minimal Logo Only) */}
-      <motion.header 
-        className="fixed top-0 left-0 w-full p-6 z-40 mix-blend-difference text-white pointer-events-none"
-        initial={{ y: "0%" }}
-        animate={{ y: headerVisible ? "0%" : "-100%" }}
-        transition={{ duration: 0.3 }}
+      <motion.header
+        className="fixed top-0 left-0 w-full p-6 z-40 pointer-events-none"
+        initial={{ y: 0 }}
+        animate={{ y: headerVisible ? 0 : "-100%" }}
       >
-        <div className="container mx-auto flex justify-between items-center">
-          <Link to="/" className="text-2xl font-primary tracking-tighter pointer-events-auto hover-trigger">
-            FUNDAMENT STUDIO<span className="text-[var(--theme-accent)]">.</span>
-          </Link>
-        </div>
+        <Link to="/" className="pointer-events-auto font-primary text-xl">
+          FUNDAMENT STUDIO<span className="text-[var(--color-accent)]">.</span>
+        </Link>
       </motion.header>
 
       <AnimatePresence mode="wait">
-        <motion.main 
+        <motion.main
           key={location.pathname}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="flex-1 w-full"
         >
           {children}

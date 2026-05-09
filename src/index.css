@@ -1,62 +1,77 @@
 @import "tailwindcss";
 
-/* ========================================
-   LOCAL FONT
-   ======================================== */
-
-@font-face {
-  font-family: 'AlmodaKarme';
-  src: url('/almodakarme-regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ========================================
-   DESIGN TOKENS (STABIL)
-   ======================================== */
+/* =========================
+   THEME (SOURCE OF TRUTH)
+   ========================= */
 
 :root {
-  --bg: #1F3E44;
-  --text: #EAE4DC;
-  --accent: #BC8E74;
-  --secondary: #733843;
-  --border: #797570;
+  --theme-bg: #1F3E44;
+  --theme-text: #EAE4DC;
+  --theme-accent: #BC8E74;
+  --theme-secondary: #733843;
+  --theme-border: #797570;
+  --theme-card: #284c53;
+
+  --theme-font-primary: "Playfair Display", serif;
+  --theme-font-secondary: "Inter", sans-serif;
+
+  --theme-radius-card: 0px;
+  --theme-radius-button: 0px;
 }
 
-/* ========================================
-   GLOBAL STYLES
-   ======================================== */
+/* =========================
+   BASE
+   ========================= */
 
 body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  font-family: serif;
+  background: var(--theme-bg);
+  color: var(--theme-text);
+  font-family: var(--theme-font-secondary);
   overflow-x: hidden;
 }
 
-h1, h2, h3 {
-  font-family: 'AlmodaKarme', serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--theme-font-primary);
 }
 
-/* ========================================
-   UTILITY CLASSES
-   ======================================== */
+/* =========================
+   UTILITIES
+   ========================= */
 
-.text-accent {
-  color: var(--accent);
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
 }
 
-.border-custom {
-  border-color: var(--border);
+.text-stroke-thin {
+  color: transparent;
+  -webkit-text-stroke: 1px var(--theme-border);
 }
 
-/* optional scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
+/* =========================
+   PROJECT STYLES
+   ========================= */
+
+.hero-image { opacity: 0.1; }
+
+.project-item {
+  padding: 4rem 0;
 }
 
-::-webkit-scrollbar-thumb {
-  background: var(--border);
+.project-title {
+  font-size: clamp(3rem, 6vw, 8rem);
+  letter-spacing: -0.04em;
+  transition: all 0.5s ease;
+}
+
+.project-item:hover .project-title {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--theme-text);
+  transform: translateX(40px);
+}
+
+.morphing-shape {
+  background: var(--theme-accent);
 }
