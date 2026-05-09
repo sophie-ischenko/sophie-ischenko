@@ -373,6 +373,7 @@ export default function Home() {
               <li><a href="https://fundament-studio.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">Business / Fundament Studio ↗</a></li>
               <li><span className="hover:text-[var(--theme-secondary)] transition-colors cursor-default text-[var(--theme-text)]">Magazin: Codex (publizistischer Raum)</span></li>
               <li><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">Instagram ↗</a></li>
+              <li><a href="https://github.com/sophie-ischenko" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">GitHub ↗</a></li>
               <li><span className="opacity-50">YouTube (geplant)</span></li>
               <li><span className="opacity-50">Podcast (geplant)</span></li>
             </ul>
@@ -387,9 +388,19 @@ export default function Home() {
             </a>
             
             <div className="mt-12 md:mt-0 flex flex-col md:items-end gap-2 text-xs">
-               <a href="mailto:contact@fundament-studio.de" className="hover:text-[var(--theme-accent)] transition-colors mb-4 inline-block hover-trigger">contact@fundament-studio.de</a>
-               <p className="opacity-50 border-t border-[var(--theme-border)]/30 pt-4 w-full md:w-auto">© {new Date().getFullYear()} SOPHIE ISCHENKO.</p>
-            </div>
+
+
+  <a
+    href="mailto:contact@fundament-studio.de"
+    className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger"
+  >
+    contact@fundament-studio.de
+  </a>
+
+  <p className="opacity-50 border-t border-[var(--theme-border)]/30 pt-4 w-full md:w-auto">
+    © {new Date().getFullYear()} SOPHIE ISCHENKO.
+  </p>
+</div>
           </div>
         </div>
       </footer>
