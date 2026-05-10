@@ -219,34 +219,34 @@ export default function Home() {
       </section>
 
       {/* 4. System Thinking & Stack (Reveal Effect) */}
-      <section ref={section4Ref} className="relative h-[200vh]">
+      {/* 4. System Thinking & Stack (Reveal Effect) */}
+      <section ref={section4Ref} className="relative h-[250vh]">
         <motion.div 
           style={{ clipPath }}
           className="sticky top-0 h-screen w-full flex items-center justify-center bg-[var(--theme-text)] text-[var(--theme-bg)] overflow-hidden border-b border-[var(--theme-bg)]/30"
         >
-          <div className="max-w-[1400px] w-full mx-auto px-6 md:px-12 py-24 h-full flex flex-col justify-center">
+          <div className="max-w-[1400px] w-full mx-auto px-6 md:px-12 py-12 md:py-24 h-full flex flex-col justify-center overflow-y-auto md:overflow-visible">
             
-            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-16 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-[1fr_1.5fr] gap-8 md:gap-16 items-center">
                <motion.div
                  initial={{ opacity: 0, x: -30 }}
                  whileInView={{ opacity: 1, x: 0 }}
                  viewport={{ once: true }}
                >
-                 <h2 className="text-[clamp(3rem,6vw,5rem)] font-primary uppercase mb-6 leading-none">Systemdenken</h2>
-                 <p className="text-xl font-secondary opacity-70 mb-12 border-b border-[var(--theme-bg)]/20 pb-8">Websites sind keine Oberflächen. Sie sind:</p>
+                 <h2 className="text-[clamp(2.5rem,6vw,5rem)] font-primary uppercase mb-4 md:mb-6 leading-none">Systemdenken</h2>
+                 <p className="text-lg md:text-xl font-secondary opacity-70 mb-8 md:mb-12 border-b border-[var(--theme-bg)]/20 pb-4 md:pb-8">Websites sind für mich keine Oberflächen, sondern:</p>
                  
-                 <div className="space-y-8 font-secondary">
+                 <div className="space-y-4 md:space-y-8 font-secondary">
                    <motion.div 
                       initial={{ opacity: 0, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
-                      className="flex gap-6 group hover-trigger cursor-default"
+                      className="flex gap-4 md:gap-6 group hover-trigger cursor-default"
                    >
-                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/01</span>
+                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/01</span>
                       <div>
-                        <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Strukturierte Informationssysteme</h4>
-                        <p className="opacity-50 text-sm">Mit definierten Hierarchien und Entscheidungspfaden.</p>
+                        <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Strukturierte Informationssysteme</h4>
                       </div>
                    </motion.div>
                    <motion.div 
@@ -254,12 +254,11 @@ export default function Home() {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
-                      className="flex gap-6 group hover-trigger cursor-default"
+                      className="flex gap-4 md:gap-6 group hover-trigger cursor-default"
                    >
-                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/02</span>
+                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/02</span>
                       <div>
-                        <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Datenflüsse (CMS → API → Frontend)</h4>
-                        <p className="opacity-50 text-sm">Kein Copy-paste zwischen Systemen. Kein manueller Umweg.</p>
+                        <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Datenflüsse (CMS → API → Frontend)</h4>
                       </div>
                    </motion.div>
                    <motion.div 
@@ -267,12 +266,11 @@ export default function Home() {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.3 }}
-                      className="flex gap-6 group hover-trigger cursor-default"
+                      className="flex gap-4 md:gap-6 group hover-trigger cursor-default"
                    >
-                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/03</span>
+                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/03</span>
                       <div>
-                        <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Entscheidungsarchitekturen für Nutzerführung</h4>
-                        <p className="opacity-50 text-sm">Struktur, die Verhalten lenkt, ohne es zu erzwingen.</p>
+                        <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Entscheidungsarchitekturen</h4>
                       </div>
                    </motion.div>
                    <motion.div 
@@ -280,31 +278,30 @@ export default function Home() {
                       whileInView={{ opacity: 1, x: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: 0.4 }}
-                      className="flex gap-6 group hover-trigger cursor-default"
+                      className="flex gap-4 md:gap-6 group hover-trigger cursor-default"
                    >
-                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/04</span>
+                      <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/04</span>
                       <div>
-                        <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Übergaben, die funktionieren</h4>
-                        <p className="opacity-50 text-sm">Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann, ohne mich.</p>
+                        <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Technische Übersetzungen</h4>
                       </div>
                    </motion.div>
                  </div>
                </motion.div>
-  
+   
                <motion.div 
                  initial={{ opacity: 0, scale: 0.95 }}
                  whileInView={{ opacity: 1, scale: 1 }}
                  viewport={{ once: true }}
-                 className="p-8 md:p-16 border border-[var(--theme-bg)]/30 bg-[var(--theme-bg)]/10 relative overflow-hidden"
+                 className="p-6 md:p-16 border border-[var(--theme-bg)]/30 bg-[var(--theme-bg)]/10 relative overflow-hidden"
                >
                   <div className="absolute top-0 right-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[var(--theme-accent)] to-transparent opacity-50" />
-                  <h3 className="text-3xl font-primary uppercase mb-8 text-[var(--theme-bg)]">Tech Stack</h3>
-                  <div className="flex flex-wrap gap-4 font-mono text-sm uppercase tracking-widest">
+                  <h3 className="text-2xl md:text-3xl font-primary uppercase mb-6 md:mb-8 text-[var(--theme-bg)]">Tech Stack</h3>
+                  <div className="flex flex-wrap gap-2 md:gap-4 font-mono text-[10px] md:text-sm uppercase tracking-widest">
                     {['React', 'TypeScript', 'Strapi', 'WordPress', 'Ghost', 'Node.js', 'Docker', 'Kubernetes', 'Terraform'].map((tech, i) => (
                       <motion.span 
                         key={i} 
                         whileHover={{ y: -5, borderColor: 'var(--theme-accent)' }}
-                        className="px-6 py-3 border border-[var(--theme-bg)]/40 hover:text-[var(--theme-accent)] transition-colors cursor-default bg-[var(--theme-text)]"
+                        className="px-3 md:px-6 py-2 md:py-3 border border-[var(--theme-bg)]/40 hover:text-[var(--theme-accent)] transition-colors cursor-default bg-[var(--theme-text)]"
                       >
                         {tech}
                       </motion.span>
@@ -312,7 +309,7 @@ export default function Home() {
                   </div>
                </motion.div>
             </div>
-  
+   
           </div>
         </motion.div>
       </section>
@@ -340,7 +337,7 @@ export default function Home() {
                transition={{ delay: 0.1 }}
                className="border-t border-[var(--theme-accent)] pt-4"
              >
-               Zeigt, wie ich <span className="text-[var(--theme-accent)] font-medium">Systeme architektonisch</span> denke – vor dem ersten Entwurf.
+               Zeigt, wie ich <span className="text-[var(--theme-accent)] font-medium">Systeme architektonisch</span> denke, vor dem ersten Entwurf.
              </motion.div>
              <motion.div 
                initial={{ opacity: 0, y: 20 }}
@@ -349,7 +346,7 @@ export default function Home() {
                transition={{ delay: 0.2 }}
                className="border-t border-[var(--theme-text)] pt-4"
              >
-               Dokumentiert <span className="text-[var(--theme-text)] font-medium">technische Entscheidungen</span> – nicht nur Ergebnisse.
+               Dokumentiert <span className="text-[var(--theme-text)] font-medium">technische Entscheidungen</span>, nicht nur Ergebnisse.
              </motion.div>
              <motion.div 
                initial={{ opacity: 0, y: 20 }}
