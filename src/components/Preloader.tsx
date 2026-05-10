@@ -37,20 +37,25 @@ export function Preloader() {
           className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[var(--theme-bg)] text-[var(--theme-text)]"
         >
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center">
-            <div className="overflow-hidden">
-              <motion.div 
-                initial={{ y: 50 }}
-                animate={{ y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="text-[clamp(6rem,15vw,10rem)] font-primary tracking-tighter leading-none mix-blend-difference text-white"
-              >
-                {progress}%
-              </motion.div>
-            </div>
-          </div>
-          <div className="absolute bottom-12 left-1/2 -translate-x-1/2 text-sm uppercase tracking-widest font-mono opacity-50">
-            Fundament Studio
-          </div>
+  <div className="overflow-hidden">
+    <motion.div 
+      initial={{ y: 50 }}
+      animate={{ y: 0 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+      className="text-[clamp(6rem,15vw,10rem)] font-primary tracking-tighter leading-none mix-blend-difference text-white"
+    >
+      {progress}%
+    </motion.div>
+  </div>
+
+  <motion.img
+    initial={{ opacity: 0, y: 10 }}
+    animate={{ opacity: 1, y: 0 }}
+    src="./Logo_klein.png"
+    alt="Fundament Studio"
+    className="mt-6 h-32 w-auto object-contain"
+  />
+</div>
         </motion.div>
       )}
     </AnimatePresence>

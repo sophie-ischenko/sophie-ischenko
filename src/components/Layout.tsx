@@ -61,17 +61,23 @@ export function Layout({ children }: { children: ReactNode }) {
       />
 
       <motion.header
-        className="fixed top-0 left-0 w-full p-6 z-40 pointer-events-none"
-        initial={{ y: 0 }}
-        animate={{ y: headerVisible ? 0 : "-100%" }}
-      >
-        <Link
-  to="/"
-  className="pointer-events-auto font-almoda text-xl"
+  className="fixed top-0 left-0 w-full p-6 z-40 pointer-events-none"
+  initial={{ y: 0 }}
+  animate={{ y: headerVisible ? 0 : "-100%" }}
 >
-  FUNDAMENT STUDIO<span className="text-[var(--color-accent)]">.</span>
-</Link>
-      </motion.header>
+  <a
+    href="https://fundament-studio.de"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="pointer-events-auto"
+  >
+    <img
+      src="./Logo_klein.png"
+      alt="Fundament Studio"
+      className="h-22 w-auto"
+    />
+  </a>
+</motion.header>
 
       <AnimatePresence mode="wait">
         <motion.main
