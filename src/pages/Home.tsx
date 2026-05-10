@@ -130,7 +130,7 @@ export default function Home() {
               <p className="text-[var(--theme-accent)] font-mono text-sm uppercase tracking-widest mb-8 mt-6 relative z-10">Publizistischer Raum</p>
               
               <p className="font-secondary opacity-80 mb-8 text-lg relative z-10">
-                Kein Blog. Ein Meinungs- und Wissensraum für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben – und was das für ihre Arbeit bedeutet. Betrieben auf Ghost. Weil das System zum Inhalt passen sollte.
+                Kein Blog. Ein Meinungs- und Wissensraum für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben und was das für ihre Arbeit bedeutet. Betrieben auf Ghost. Weil das System zum Inhalt passen sollte.
               </p>
               
               <ul className="space-y-4 font-secondary opacity-70 relative z-10">
@@ -183,7 +183,7 @@ export default function Home() {
                   <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">CMS-Logik</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-text)] opacity-30 mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Ich arbeite nicht tool-zentriert, sondern systemzentriert. Das Werkzeug folgt der Anforderung – nicht umgekehrt.
+                    Ich arbeite nicht tool-zentriert, sondern systemzentriert. Das Werkzeug folgt der Anforderung, nicht umgekehrt.
                   </p>
                   <div className="space-y-6">
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-border)]">
@@ -285,7 +285,7 @@ export default function Home() {
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/04</span>
                       <div>
                         <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Übergaben, die funktionieren</h4>
-                        <p className="opacity-50 text-sm">Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann – ohne mich.</p>
+                        <p className="opacity-50 text-sm">Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann, ohne mich.</p>
                       </div>
                    </motion.div>
                  </div>
@@ -329,7 +329,7 @@ export default function Home() {
            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[var(--theme-accent)] to-[var(--theme-secondary)]" />
            <h2 className="text-3xl md:text-5xl font-primary uppercase mb-6">Dieses Profil</h2>
            <p className="text-xl md:text-2xl font-secondary opacity-80 mb-12">
-             Die technische Referenzebene meiner Arbeit – nicht als Selbstdarstellung, sondern als Dokumentation von Denkweise und Entscheidungen.
+             Die technische Referenzebene meiner Arbeit, nicht als Selbstdarstellung, sondern als Dokumentation von Denkweise und Entscheidungen.
            </p>
            
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto font-secondary opacity-80 text-lg mb-16">
@@ -362,8 +362,8 @@ export default function Home() {
              </motion.div>
            </div>
            
-           <div className="p-6 border border-[var(--theme-accent)]/30 bg-[var(--theme-accent)]/5 inline-flex items-center gap-4">
-             <Code className="w-8 h-8 text-[var(--theme-accent)]" />
+           <div className="p-6 border border-[var(--theme-border)]/30 bg-[var(--theme-accent)]/5 inline-flex items-center gap-4">
+             <Code className="w-8 h-8 text-[var(--theme-border)]" />
              <p className="text-sm uppercase tracking-widest font-mono text-[var(--theme-text)] text-left">
                Die technische Ebene eines Gesamtsystems aus Business (Fundament Studio) und publizistischer Arbeit (Codex).
              </p>
