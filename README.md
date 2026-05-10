@@ -2,7 +2,7 @@
 
 Ich entwickle Websysteme für Unternehmen und Marken, die über ihre erste digitale Infrastruktur hinausgewachsen sind.
 
-Meine Arbeit liegt an der Schnittstelle von Architektur, Content-Struktur und technischer Umsetzung – mit dem Ziel, Systeme zu bauen, die nicht nur heute funktionieren, sondern in zwei Jahren noch zur Realität des Unternehmens passen.
+Meine Arbeit liegt an der Schnittstelle von Architektur, Content-Struktur und technischer Umsetzung, mit dem Ziel, Systeme zu bauen, die nicht nur heute funktionieren, sondern in zwei Jahren noch zur Realität des Unternehmens passen.
 
 ---
 
@@ -24,7 +24,7 @@ Conversion-orientierte Webarchitektur · CMS-Systeme (WordPress, Ghost, Strapi) 
 
 Ein publizistischer Raum für Haltung, Technologie und digitale Souveränität.
 
-Codex ist kein Blog. Es ist ein Meinungs- und Wissensraum im Kontext einer KI-geprägten Webwelt – für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben und was das für ihre Arbeit bedeutet.
+Codex ist kein Blog. Es ist ein Meinungs- und Wissensraum im Kontext einer KI-geprägten Webwelt, für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben und was das für ihre Arbeit bedeutet.
 
 Betrieben auf Ghost. Weil das System zum Inhalt passen sollte.
 
@@ -46,7 +46,7 @@ Ich arbeite nicht tool-zentriert, sondern systemzentriert. Das Werkzeug folgt de
 
 Websites sind für mich keine Oberflächen. Sie sind strukturierte Informationssysteme mit definierten Datenflüssen, Entscheidungsarchitekturen für Nutzerführung und technischen Übersetzungen von Inhalt und Marke.
 
-Was das in der Praxis bedeutet: Ich denke vor dem ersten Entwurf über Datenstruktur nach. Ich dokumentiere Entscheidungen, nicht nur Ergebnisse. Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann – ohne mich.
+Was das in der Praxis bedeutet: Ich denke vor dem ersten Entwurf über Datenstruktur nach. Ich dokumentiere Entscheidungen, nicht nur Ergebnisse. Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann, ohne mich.
 
 ---
 
@@ -66,4 +66,4 @@ Es ist die technische Ebene eines Gesamtsystems aus **Fundament Studio** (Busine
 
 ## Web Presence
 
-[fundament-studio.de](https://fundament-studio.de) · [Portfolio](https://sophies-creative-hub.github.io/portfolio/) · [Codex Magazin](#) · [Instagram](#)
+[fundament-studio.de](https://fundament-studio.de) · [Portfolio](https://sophies-creative-hub.github.io/portfolio/) · [Codex Magazin](#) · [Instagram](https://www.instagram.com/fundament.studio/)
