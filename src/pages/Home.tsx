@@ -58,10 +58,10 @@ export default function Home() {
             >
               <p className="text-sm uppercase tracking-widest font-mono opacity-60 mb-6 text-[var(--theme-accent)]">System Documentation</p>
               <p className="text-xl md:text-2xl leading-relaxed font-secondary opacity-80 mb-6">
-                Ich entwickle digitale Systeme für etablierte Personal Brands.
+                Ich entwickle Websysteme für Unternehmen und Marken, die über ihre erste digitale Infrastruktur hinausgewachsen sind.
               </p>
               <p className="text-lg leading-relaxed font-secondary opacity-60">
-                Mein Fokus liegt auf der Verbindung von Technologie, Content-Strukturen und Webarchitektur, um Websites zu bauen, die nicht nur sichtbar sind, sondern messbar funktionieren: in Performance, Struktur und qualifizierten Anfragen.
+                Meine Arbeit liegt an der Schnittstelle von Architektur, Content-Struktur und technischer Umsetzung. Das Ziel: Systeme, die nicht nur heute funktionieren, sondern in zwei Jahren noch zur Realität des Unternehmens passen.
               </p>
             </motion.div>
           </motion.div>
@@ -85,10 +85,10 @@ export default function Home() {
                  <LayoutTemplate className="w-32 h-32 text-[var(--theme-accent)]" />
               </div>
               <h3 className="text-4xl md:text-5xl font-primary uppercase mb-2 relative z-10">Fundament<br />Studio</h3>
-              <p className="text-[var(--theme-accent)] font-mono text-sm uppercase tracking-widest mb-8 relative z-10 mt-6">Business-System</p>
+              <p className="text-[var(--theme-accent)] font-mono text-sm uppercase tracking-widest mb-8 relative z-10 mt-6">Strategische Webarchitektur</p>
               
               <p className="font-secondary opacity-80 mb-8 text-lg relative z-10">
-                Mein Business-System für strategische Webarchitektur. Ich entwickle Websites als Systeme, nicht als statische Seiten.
+                Ich entwickle keine Websites. Ich entwickle Systeme – mit definierten Datenflüssen, dokumentierten Strukturen und der Grundlage, dass der Betreiber am Ende versteht, was er hat.
               </p>
               
               <ul className="space-y-4 font-secondary opacity-70 relative z-10">
@@ -98,7 +98,7 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-3">
                    <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
-                   CMS-basierte Systeme (WordPress, Ghost, Strapi)
+                   CMS-Systeme (WordPress · Ghost · Strapi)
                 </li>
                 <li className="flex items-start gap-3">
                    <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
@@ -130,7 +130,7 @@ export default function Home() {
               <p className="text-[var(--theme-accent)] font-mono text-sm uppercase tracking-widest mb-8 mt-6 relative z-10">Publizistischer Raum</p>
               
               <p className="font-secondary opacity-80 mb-8 text-lg relative z-10">
-                Ein Raum für Haltung, Technologie und digitale Selbstbestimmung im Kontext einer KI-geprägten Webwelt.
+                Kein Blog. Ein Meinungs- und Wissensraum für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben – und was das für ihre Arbeit bedeutet. Betrieben auf Ghost. Weil das System zum Inhalt passen sollte.
               </p>
               
               <ul className="space-y-4 font-secondary opacity-70 relative z-10">
@@ -166,14 +166,14 @@ export default function Home() {
                   <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">Was ich baue</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-accent)] mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Ich entwickle keine isolierten Websites, sondern zusammenhängende Systeme:
+                    Keine isolierten Websites. Zusammenhängende Systeme mit definierten Strukturen und dokumentierten Entscheidungen.
                   </p>
                   <ul className="space-y-4 font-secondary opacity-70">
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> CMS-Architekturen (WordPress, Ghost, Strapi)</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> CMS-Architekturen (WordPress · Ghost · Strapi)</li>
                     <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> React Frontend Systeme</li>
                     <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Headless Webarchitekturen</li>
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Migrationen von Legacy-Systemen</li>
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Content- und Datenstrukturen</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Migration von Legacy-Systemen</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Code className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Content- und Datenstrukturen für skalierbare Plattformen</li>
                   </ul>
                 </div>
               </div>
@@ -183,16 +183,16 @@ export default function Home() {
                   <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">CMS-Logik</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-text)] opacity-30 mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Ich wähle Technologien nach Problemstellung:
+                    Ich arbeite nicht tool-zentriert, sondern systemzentriert. Das Werkzeug folgt der Anforderung – nicht umgekehrt.
                   </p>
                   <div className="space-y-6">
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-border)]">
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">WordPress</h3>
-                      <p className="font-secondary opacity-60">Klassische Websites, SEO, schnelle Umsetzung.</p>
+                      <p className="font-secondary opacity-60">Wenn Kontrolle, Flexibilität und ein breites Integrations-Ökosystem gefragt sind. Für Unternehmen, die ihr System selbst betreiben wollen.</p>
                     </div>
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-secondary)]">
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost <span className="text-[var(--theme-secondary)] italic text-sm">Editorial</span></h3>
-                      <p className="font-secondary opacity-60">Editorial Systeme und Publishing-Strukturen.</p>
+                      <p className="font-secondary opacity-60">Wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll. Für Redaktionen und contentgetriebene Marken.</p>
                     </div>
                   </div>
                 </div>
@@ -200,15 +200,15 @@ export default function Home() {
 
               <div className="w-[100vw] flex-shrink-0 px-6 md:px-12 flex items-center">
                 <div className="max-w-2xl">
-                  <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">Frontend Systeme</h2>
+                  <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">Strapi + React</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-accent)] mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Eigene Oberflächen, entkoppelt vom Backend:
+                    Wenn Inhalte heute skalieren sollen, ohne morgen neu gebaut zu werden.
                   </p>
                   <div className="space-y-6">
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-accent)]">
-                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-accent)]">Strapi + React</h3>
-                      <p className="font-secondary opacity-60">Flexible, skalierbare Headless Architekturen.</p>
+                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-accent)]">Headless Architektur</h3>
+                      <p className="font-secondary opacity-60">Strapi trennt Inhalt von Darstellung. Inhalte werden einmal strukturiert gepflegt und auf jeder Oberfläche ausgespielt – Website, App, Drittanbieter. Für Unternehmen, die mehrere Kanäle bespielen oder Agentur-Setups aufbauen.</p>
                     </div>
                   </div>
                 </div>
@@ -233,7 +233,7 @@ export default function Home() {
                  viewport={{ once: true }}
                >
                  <h2 className="text-[clamp(3rem,6vw,5rem)] font-primary uppercase mb-6 leading-none">Systemdenken</h2>
-                 <p className="text-xl font-secondary opacity-70 mb-12 border-b border-[var(--theme-bg)]/20 pb-8">Websites sind für mich keine Oberflächen, sondern:</p>
+                 <p className="text-xl font-secondary opacity-70 mb-12 border-b border-[var(--theme-bg)]/20 pb-8">Websites sind keine Oberflächen. Sie sind:</p>
                  
                  <div className="space-y-8 font-secondary">
                    <motion.div 
@@ -246,6 +246,7 @@ export default function Home() {
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/01</span>
                       <div>
                         <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Strukturierte Informationssysteme</h4>
+                        <p className="opacity-50 text-sm">Mit definierten Hierarchien und Entscheidungspfaden.</p>
                       </div>
                    </motion.div>
                    <motion.div 
@@ -258,6 +259,7 @@ export default function Home() {
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/02</span>
                       <div>
                         <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Datenflüsse (CMS → API → Frontend)</h4>
+                        <p className="opacity-50 text-sm">Kein Copy-paste zwischen Systemen. Kein manueller Umweg.</p>
                       </div>
                    </motion.div>
                    <motion.div 
@@ -270,6 +272,7 @@ export default function Home() {
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/03</span>
                       <div>
                         <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Entscheidungsarchitekturen für Nutzerführung</h4>
+                        <p className="opacity-50 text-sm">Struktur, die Verhalten lenkt, ohne es zu erzwingen.</p>
                       </div>
                    </motion.div>
                    <motion.div 
@@ -281,7 +284,8 @@ export default function Home() {
                    >
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1">/04</span>
                       <div>
-                        <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Technische Übersetzungen von Content und Marke</h4>
+                        <h4 className="font-primary text-xl uppercase mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Übergaben, die funktionieren</h4>
+                        <p className="opacity-50 text-sm">Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann – ohne mich.</p>
                       </div>
                    </motion.div>
                  </div>
@@ -323,9 +327,9 @@ export default function Home() {
            className="max-w-[1000px] w-full text-center mb-32 border border-[var(--theme-border)]/20 p-12 md:p-24 bg-[var(--theme-text)]/5 rounded-sm relative overflow-hidden"
         >
            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[var(--theme-accent)] to-[var(--theme-secondary)]" />
-           <h2 className="text-3xl md:text-5xl font-primary uppercase mb-6">Ziel dieser GitHub-Präsenz</h2>
+           <h2 className="text-3xl md:text-5xl font-primary uppercase mb-6">Dieses Profil</h2>
            <p className="text-xl md:text-2xl font-secondary opacity-80 mb-12">
-             Dieses Profil dient als technische Referenz meiner Arbeit.
+             Die technische Referenzebene meiner Arbeit – nicht als Selbstdarstellung, sondern als Dokumentation von Denkweise und Entscheidungen.
            </p>
            
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto font-secondary opacity-80 text-lg mb-16">
@@ -336,7 +340,7 @@ export default function Home() {
                transition={{ delay: 0.1 }}
                className="border-t border-[var(--theme-accent)] pt-4"
              >
-               Zeigt, wie ich <span className="text-[var(--theme-accent)] font-medium">Systeme architektonisch</span> denke.
+               Zeigt, wie ich <span className="text-[var(--theme-accent)] font-medium">Systeme architektonisch</span> denke – vor dem ersten Entwurf.
              </motion.div>
              <motion.div 
                initial={{ opacity: 0, y: 20 }}
@@ -345,7 +349,7 @@ export default function Home() {
                transition={{ delay: 0.2 }}
                className="border-t border-[var(--theme-text)] pt-4"
              >
-               Dokumentiert <span className="text-[var(--theme-text)] font-medium">technische Entscheidungen</span> in Projekten.
+               Dokumentiert <span className="text-[var(--theme-text)] font-medium">technische Entscheidungen</span> – nicht nur Ergebnisse.
              </motion.div>
              <motion.div 
                initial={{ opacity: 0, y: 20 }}
@@ -354,14 +358,14 @@ export default function Home() {
                transition={{ delay: 0.3 }}
                className="border-t border-[var(--theme-border)] pt-4"
              >
-               Veranschaulicht das Zusammenspiel von Content, CMS und Frontend.
+               Veranschaulicht das Zusammenspiel von Content, CMS und Frontend als zusammenhängendes System.
              </motion.div>
            </div>
            
            <div className="p-6 border border-[var(--theme-accent)]/30 bg-[var(--theme-accent)]/5 inline-flex items-center gap-4">
              <Code className="w-8 h-8 text-[var(--theme-accent)]" />
              <p className="text-sm uppercase tracking-widest font-mono text-[var(--theme-text)] text-left">
-               Die technische Ebene meines Gesamt-Systems aus Business (Fundament Studio) und publizistischer Arbeit (Codex).
+               Die technische Ebene eines Gesamtsystems aus Business (Fundament Studio) und publizistischer Arbeit (Codex).
              </p>
            </div>
         </motion.div>
@@ -382,25 +386,22 @@ export default function Home() {
           <div className="md:text-right flex flex-col justify-between">
             <a href="https://fundament-studio.de" target="_blank" rel="noopener noreferrer" className="group inline-flex flex-col items-center md:items-end hover-trigger outline-none mb-12">
               <span className="text-[var(--theme-accent)] font-mono text-xs uppercase tracking-widest mb-4">Back to main</span>
-                    <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary leading-[0.8] tracking-tighter uppercase text-[var(--theme-text)] transition-all duration-700">
-  Fundament Studio
-</h2>
+              <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary leading-[0.8] tracking-tighter uppercase text-[var(--theme-text)] transition-all duration-700">
+                Fundament Studio
+              </h2>
             </a>
             
             <div className="mt-12 md:mt-0 flex flex-col md:items-end gap-2 text-xs">
-
-
-  <a
-    href="mailto:contact@fundament-studio.de"
-    className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger"
-  >
-    contact@fundament-studio.de
-  </a>
-
-  <p className="opacity-50 border-t border-[var(--theme-border)]/30 pt-4 w-full md:w-auto">
-    © {new Date().getFullYear()} SOPHIE ISCHENKO.
-  </p>
-</div>
+              <a
+                href="mailto:contact@fundament-studio.de"
+                className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger"
+              >
+                contact@fundament-studio.de
+              </a>
+              <p className="opacity-50 border-t border-[var(--theme-border)]/30 pt-4 w-full md:w-auto">
+                © {new Date().getFullYear()} SOPHIE ISCHENKO.
+              </p>
+            </div>
           </div>
         </div>
       </footer>
