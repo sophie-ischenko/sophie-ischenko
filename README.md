@@ -1,105 +1,69 @@
 # Sophie Ischenko
 
-Ich entwickle digitale Systeme für etablierte Personal Brands.
+Ich entwickle Websysteme für Unternehmen und Marken, die über ihre erste digitale Infrastruktur hinausgewachsen sind.
 
-Ich verbinde **Technologie, Content-Strukturen und Webarchitektur**, um Websites zu bauen, die nicht nur sichtbar sind, sondern messbar funktionieren: in Performance, Struktur und qualifizierten Anfragen.
-
----
-
-## 🌐 Web Presence
-
-- 🚀 Business / Studio: https://fundament-studio.de  
-- 🧩 Work / Portfolio: https://sophies-creative-hub.github.io/portfolio/  
-- 📰 Magazin: Codex (Ghost CMS)  
-- 📸 Instagram: https://instagram.com/...  
-- 🎥 YouTube (geplant)  
-- 🎙️ Podcast (geplant)
+Meine Arbeit liegt an der Schnittstelle von Architektur, Content-Struktur und technischer Umsetzung – mit dem Ziel, Systeme zu bauen, die nicht nur heute funktionieren, sondern in zwei Jahren noch zur Realität des Unternehmens passen.
 
 ---
 
-## 🚀 Fundament Studio
+## Fundament Studio
 
-Mein Business-System für strategische Webarchitektur.
+Strategische Webarchitektur für etablierte Unternehmen und Marken.
 
-Ich entwickle Websites als Systeme, nicht als statische Seiten.
+Ich entwickle keine Websites. Ich entwickle Systeme – mit definierten Datenflüssen, dokumentierten Strukturen und der Grundlage, dass der Betreiber am Ende versteht, was er hat.
 
-👉 https://fundament-studio.de
+→ [fundament-studio.de](https://fundament-studio.de)
 
-**Schwerpunkte:**
+**Schwerpunkte**
 
-- Conversion-orientierte Webarchitektur  
-- CMS-Systeme (WordPress · Ghost · Strapi)  
-- React Frontend Entwicklung  
-- Content-Struktur & Informationsarchitektur  
-- Performance- und SEO-optimierte Systeme  
+Conversion-orientierte Webarchitektur · CMS-Systeme (WordPress, Ghost, Strapi) · React Frontend Entwicklung · Content-Struktur und Informationsarchitektur · Performance- und SEO-optimierte Systeme
 
 ---
 
-## 🧭 Codex Magazin
+## Codex
 
-Ein publizistischer Raum für Haltung, Technologie und digitale Selbstbestimmung.
+Ein publizistischer Raum für Haltung, Technologie und digitale Souveränität.
 
-Codex ist kein klassisches Blog-System, sondern ein **Meinungs- und Wissensraum im Kontext einer KI-geprägten Webwelt**.
+Codex ist kein Blog. Es ist ein Meinungs- und Wissensraum im Kontext einer KI-geprägten Webwelt – für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben und was das für ihre Arbeit bedeutet.
 
-**Themen:**
-
-- Web & KI im strukturellen Wandel  
-- digitale Souveränität  
-- Machtstrukturen im digitalen Raum  
-- Bildung und Weiterentwicklung als Notwendigkeit  
+Betrieben auf Ghost. Weil das System zum Inhalt passen sollte.
 
 ---
 
-## 🏗️ Was ich baue
+## CMS-Logik
 
-Ich entwickle keine isolierten Websites, sondern zusammenhängende Systeme:
+Ich arbeite nicht tool-zentriert, sondern systemzentriert. Das Werkzeug folgt der Anforderung.
 
-- CMS-Architekturen (WordPress · Ghost · Strapi)  
-- React Frontend Systeme  
-- Headless Webarchitekturen  
-- Migration von Legacy-Systemen  
-- Content- und Datenstrukturen für skalierbare Plattformen  
+**WordPress** – wenn Kontrolle, Flexibilität und ein breites Integrations-Ökosystem gefragt sind. Für Unternehmen, die ihr System selbst betreiben wollen.
 
----
+**Ghost** – wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll. Für Redaktionen, Verlage und contentgetriebene Marken, die Klarheit über Komplexität stellen.
 
-## 🧠 CMS-Logik
-
-Ich arbeite bewusst nicht tool-zentriert, sondern systemzentriert.
-
-Ich wähle Technologien nach Problemstellung:
-
-- WordPress → klassische Websites, SEO, schnelle Umsetzung  
-- Ghost → Editorial Systeme und Publishing-Strukturen  
-- Strapi + React → flexible, skalierbare Headless Architekturen  
+**Strapi + React** – wenn Inhalte mehrere Kanäle bespielen, Teams unabhängig voneinander arbeiten sollen oder Skalierung über eine einzelne Website hinausgeht. Für Unternehmen, die heute bauen, ohne morgen neu bauen zu wollen.
 
 ---
 
-## ⚙️ Systemdenken
+## Systemdenken
 
-Websites sind für mich keine Oberflächen.
+Websites sind für mich keine Oberflächen. Sie sind strukturierte Informationssysteme mit definierten Datenflüssen, Entscheidungsarchitekturen für Nutzerführung und technischen Übersetzungen von Inhalt und Marke.
 
-Sie sind:
-
-- strukturierte Informationssysteme  
-- Datenflüsse (CMS → API → Frontend)  
-- Entscheidungsarchitekturen für Nutzerführung  
-- technische Übersetzungen von Content und Marke  
+Was das in der Praxis bedeutet: Ich denke vor dem ersten Entwurf über Datenstruktur nach. Ich dokumentiere Entscheidungen, nicht nur Ergebnisse. Ich übergebe Systeme so, dass jemand anderes damit weiterarbeiten kann – ohne mich.
 
 ---
 
-## 🧩 Stack
+## Stack
 
 `React` · `TypeScript` · `Strapi` · `WordPress` · `Ghost` · `Node.js` · `Docker` · `Kubernetes` · `Terraform`
 
 ---
 
-## 🎯 Ziel dieser GitHub-Präsenz
+## Dieses Profil
 
-Dieses Profil dient als technische Referenz meiner Arbeit.
+Dieses GitHub-Profil ist die technische Referenzebene meiner Arbeit. Es zeigt, wie ich Systeme architektonisch denke, welche Entscheidungen ich treffe und wie Content, CMS und Frontend als zusammenhängendes System funktionieren.
 
-Es zeigt:
-- wie ich Systeme architektonisch denke  
-- welche technischen Entscheidungen ich treffe  
-- wie Content, CMS und Frontend zusammenspielen  
+Es ist die technische Ebene eines Gesamtsystems aus **Fundament Studio** (Business), **Codex** (Publikation) und meiner Entwicklungsarbeit.
 
-Es ist die technische Ebene meines Gesamt-Systems aus **Fundament Studio (Business)**, **Codex (Publikation)** und meiner Entwicklungsarbeit.
+---
+
+## Web Presence
+
+[fundament-studio.de](https://fundament-studio.de) · [Portfolio](https://sophies-creative-hub.github.io/portfolio/) · [Codex Magazin](#) · [Instagram](#)
