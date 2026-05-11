@@ -4,7 +4,7 @@ Ich entwickle Websysteme für Unternehmen und Marken, die über ihre erste digit
 
 Meine Arbeit liegt an der Schnittstelle von Architektur, Content-Struktur und technischer Umsetzung, mit dem Ziel, Systeme zu bauen, die nicht nur heute funktionieren, sondern in zwei Jahren noch zur Realität des Unternehmens passen.
 
- → [lies hier gerne mehr]([https://sophie.fundament-studio.de/])
+ → [lies hier gerne mehr](https://sophie.fundament-studio.de/)
 
 ---
 
