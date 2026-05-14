@@ -4,6 +4,8 @@ Ich entwickle Websysteme für Unternehmen und Marken, die über ihre erste digit
 
 Meine Arbeit liegt an der Schnittstelle von Architektur, Content-Struktur und technischer Umsetzung, mit dem Ziel, Systeme zu bauen, die nicht nur heute funktionieren, sondern in zwei Jahren noch zur Realität des Unternehmens passen.
 
+ → [lies hier gerne mehr](https://sophie.fundament-studio.de/)
+
 ---
 
 ## Fundament Studio
@@ -66,4 +68,4 @@ Es ist die technische Ebene eines Gesamtsystems aus **Fundament Studio** (Busine
 
 ## Web Presence
 
-[fundament-studio.de](https://fundament-studio.de) · [Portfolio](https://sophies-creative-hub.github.io/portfolio/) · [Codex Magazin](#) · [Instagram](https://www.instagram.com/fundament.studio/)
+[fundament-studio.de](https://welcome.fundament-studio.de)  · [Codex Magazin](#) · [LinkedIn](https://www.linkedin.com/in/sophie-ischenko/)· [Instagram](https://www.instagram.com/fundament.studio/)
