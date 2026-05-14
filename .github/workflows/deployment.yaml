@@ -1,0 +1,52 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USER }}
+          password: ${{ secrets.DOCKER_PASS }}
+
+      - name: Build and Push Docker image
+        env:
+          # FÜR sophie: sophiecreative/fundament-sophie
+          # FÜR SOPHIE:  sophiecreative/fundament-sophie
+          IMAGE_NAME: ${{ secrets.DOCKER_USER }}/fundament-sophie 
+        run: |
+          docker build -t $IMAGE_NAME:${{ github.sha }} -t $IMAGE_NAME:latest .
+          docker push $IMAGE_NAME:${{ github.sha }}
+          docker push $IMAGE_NAME:latest
+
+      - name: Deploy to Server via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PASS }}
+          script: |
+            # Image ziehen (Passe Name an!)
+            docker pull ${{ secrets.DOCKER_USER }}/fundament-sophie:latest
+            
+            # Container bereinigen
+            docker stop fundament-sophie || true
+            docker rm fundament-sophie || true
+            
+            # Starten (Port 3001 für sophie, Port 3002 für welcome)
+            docker run -d \
+              --name fundament-sophie \
+              -p 3001:80 \
+              --restart always \
+              ${{ secrets.DOCKER_USER }}/fundament-sophie:latest
+            
+            docker image prune -f
