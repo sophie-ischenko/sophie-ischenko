@@ -45,7 +45,7 @@ jobs:
             # Starten (Port 3001 für sophie, Port 3002 für welcome)
             docker run -d \
               --name fundament-sophie \
-              -p 3001:80 \
+              -p 3002:80 \
               --restart always \
               ${{ secrets.DOCKER_USER }}/fundament-sophie:latest
             
