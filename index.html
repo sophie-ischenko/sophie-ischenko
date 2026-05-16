@@ -1,9 +1,10 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="./favicon.ico" />
     <meta name="theme-color" content="#1F3E44" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="FUNDAMENT STUDIO. Wir formen digitale Identitäten. Reduziert auf das Wesentliche, gestaltet für maximale emotionale Wirkung." />
     <meta name="keywords" content="Design Studio, Webdesign, Art Direction, Awwwards, UX, UI, Performance" />
@@ -15,5 +16,511 @@
     <div id="root"></div>
     <script type="module" src="./src/main.tsx"></script>
   </body>
-</html>
+</html> -->
 
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="WordPress-Systeme, Automatisierung und digitale Infrastruktur für etablierte Berater, Coaches und Experten. Stabilisierung, Systemarchitektur, Operations." />
+    <meta name="keywords" content="WordPress Infrastruktur, Systemarchitektur, Automatisierung, CMS-Setup, Digital Infrastructure, Lemgo, Kalletal" />
+    <meta name="author" content="Sophie Ischenko" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- ⚠️ CANONICAL: Überprüfen ob domain mit oder ohne www ✓ -->
+    <link rel="canonical" href="https://fundament-studio.de/" />
+    
+    <!-- Alternate für andere Sprachversionen (falls zukünftig relevant) -->
+    <link rel="alternate" hreflang="de" href="https://fundament-studio.de/" />
+    <link rel="alternate" hreflang="en" href="https://fundament-studio.de/en/" />
+    
+    <title>FUNDAMENT STUDIO. | Digital Identity</title>
+
+    <!-- ═══ INTERNE LINK STRUCTURE (für Google & Grounding) ═══ -->
+    <!-- Rel=related für interne Cluster -->
+    <link rel="related" href="https://fundament-studio.de/stabilisierung" title="Stabilisierung: WordPress-Audit & Performance" />
+    <link rel="related" href="https://fundament-studio.de/systemarchitektur" title="Systemarchitektur: Custom CMS-Setups" />
+    <link rel="related" href="https://fundament-studio.de/operations-automatisierung" title="Operations & Automatisierung: Workflows & Integrations" />
+    <link rel="related" href="https://fundament-studio.de/pakete" title="Leistungen & Preise" />
+    <link rel="related" href="https://fundament-studio.de/about-me" title="Über mich: Philosophie & Werte" />
+
+    <!-- Person Schema (Creator/Founder) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://fundament-studio.de/#person",
+      "name": "Sophie Ischenko",
+      "url": "https://fundament-studio.de/",
+      "jobTitle": "WordPress Systems & Infrastructure Consultant",
+      "email": "sophie@fundament-studio.de",
+      "telephone": "+49-179-7319118",
+      "image": "https://fundament-studio.de/sophie.jpg",
+      "sameAs": [
+        "https://www.linkedin.com/in/sophie-ischenko",
+        "https://www.instagram.com/fundament.studio",
+        "https://github.com/sophie-ischenko"
+      ],
+      "knowsLanguage": ["de", "en"],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "knowsAbout": [
+        "WordPress",
+        "Ghost CMS",
+        "Systemarchitektur",
+        "Automatisierung",
+        "Performance-Optimierung",
+        "Entity-Grounding",
+        "GEO-Grounding",
+        "Core Web Vitals"
+      ]
+    }
+    </script>
+
+    <!-- Primary Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://fundament-studio.de/#organization",
+      "name": "Fundament Studio",
+      "legalName": "Fundament Studio (Einzelunternehmen)",
+      "url": "https://fundament-studio.de/",
+      "logo": "https://fundament-studio.de/Logo.svg",
+      "image": "https://fundament-studio.de/Logo.svg",
+      "description": "Spezialisierte Infrastruktur- und WordPress/Ghost CMS-Systemberatung für etablierte Selbstständige, Berater, Coaches und Experten-Dienstleister im deutschsprachigen Raum.",
+      "founder": {
+        "@type": "Person",
+        "@id": "https://fundament-studio.de/#person"
+      },
+      "foundingDate": "2026",
+      "foundingLocation": "Lemgo, Deutschland",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "telephone": "+49-179-7319118",
+        "email": "sophie@fundament-studio.de",
+        "areaServed": ["DE", "AT", "CH"],
+        "availableLanguage": ["de", "en"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Alte Siedlung 7",
+        "addressLocality": "Kalletal",
+        "postalCode": "32689",
+        "addressRegion": "Nordrhein-Westfalen",
+        "addressCountry": "DE"
+      },
+      "areaServed": {
+        "@type": "GeoShape",
+        "name": "Deutschland, Österreich, Schweiz (deutschsprachig)"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/sophie-ischenko",
+        "https://www.instagram.com/fundament.studio",
+        "https://github.com/sophie-ischenko"
+      ],
+      "knowsAbout": [
+        "WordPress",
+        "Ghost CMS",
+        "Systemarchitektur",
+        "Automatisierung",
+        "Performance-Optimierung",
+        "GEO-Grounding",
+        "Entity-Grounding",
+        "Core Web Vitals",
+        "CMS-Setup",
+        "Lead-Management",
+        "Datenarchitektur"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "WordPress & Automatisierungs-Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Stabilisierung",
+              "url": "https://fundament-studio.de/stabilisierung"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Systemarchitektur",
+              "url": "https://fundament-studio.de/systemarchitektur"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Operations & Automatisierung",
+              "url": "https://fundament-studio.de/operations-automatisierung"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "System Care",
+              "url": "https://fundament-studio.de/pakete"
+            }
+          }
+        ]
+      },
+      "serviceArea": [
+        {
+          "@type": "City",
+          "name": "Kalletal"
+        },
+        {
+          "@type": "City",
+          "name": "Lemgo"
+        },
+        {
+          "@type": "Country",
+          "name": "Deutschland"
+        },
+        {
+          "@type": "Country",
+          "name": "Österreich"
+        },
+        {
+          "@type": "Country",
+          "name": "Schweiz"
+        }
+      ],
+      "targetAudience": [
+        {
+          "@type": "Audience",
+          "audienceType": "Beraterinnen & Coaches"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "Expertinnen & Dienstleisterinnen"
+        },
+        {
+          "@type": "Audience",
+          "audienceType": "KMU & Mittelstand"
+        }
+      ]
+    }
+    </script>
+
+    <!-- LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "@id": "https://fundament-studio.de/#localbusiness",
+      "name": "Fundament Studio",
+      "image": "https://fundament-studio.de/Logo.svg",
+      "description": "WordPress- und Ghost CMS-Systemberatung, Automatisierung und Infrastruktur für Experten und hochpreisige Dienstleister",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Alte Siedlung 7",
+        "addressLocality": "Kalletal",
+        "postalCode": "32689",
+        "addressRegion": "Nordrhein-Westfalen",
+        "addressCountry": "DE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "52.0161",
+        "longitude": "8.8678"
+      },
+      "telephone": "+49-179-7319118",
+      "email": "sophie@fundament-studio.de",
+      "url": "https://fundament-studio.de/",
+      "priceRange": "€€€",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "00:00",
+          "closes": "00:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/sophie-ischenko",
+        "https://www.instagram.com/fundament.studio",
+        "https://github.com/sophie-ischenko"
+      ]
+    }
+    </script>
+
+    <!-- Services (individuell mit interne Links) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://fundament-studio.de/stabilisierung",
+      "name": "Stabilisierung",
+      "description": "Audit und Reparatur bestehender WordPress-Systeme: Performance, Sicherheit, Datenstruktur, Plugin-Bereinigung",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "areaServed": {
+        "@type": "GeoShape",
+        "name": "Deutschsprachiger Raum (DACH)"
+      },
+      "availableLanguage": ["de", "en"],
+      "url": "https://fundament-studio.de/stabilisierung",
+      "relatedLink": [
+        "https://fundament-studio.de/systemarchitektur",
+        "https://fundament-studio.de/operations-automatisierung",
+        "https://fundament-studio.de/pakete"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://fundament-studio.de/systemarchitektur",
+      "name": "Systemarchitektur",
+      "description": "Maßgeschneiderte WordPress- und Ghost CMS-Setups mit Entity-Grounding, GEO-Struktur, Conversion-Logik und Performance",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "areaServed": {
+        "@type": "GeoShape",
+        "name": "Deutschsprachiger Raum (DACH)"
+      },
+      "availableLanguage": ["de", "en"],
+      "url": "https://fundament-studio.de/systemarchitektur",
+      "relatedLink": [
+        "https://fundament-studio.de/stabilisierung",
+        "https://fundament-studio.de/operations-automatisierung",
+        "https://fundament-studio.de/pakete"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://fundament-studio.de/operations",
+      "name": "Operations & Automatisierung",
+      "description": "Workflow-Integration mit n8n, NocoDB, Listmonk. Lead-Management, CRM-Anbindung, Prozessautomatisierung",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "areaServed": {
+        "@type": "GeoShape",
+        "name": "Deutschsprachiger Raum (DACH)"
+      },
+      "availableLanguage": ["de", "en"],
+      "url": "https://fundament-studio.de/operations-automatisierung",
+      "relatedLink": [
+        "https://fundament-studio.de/stabilisierung",
+        "https://fundament-studio.de/systemarchitektur",
+        "https://fundament-studio.de/pakete"
+      ]
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "@id": "https://fundament-studio.de/systemcare",
+      "name": "System Care (Retainer)",
+      "description": "Laufender Systembetrieb: Monitoring, Security-Updates, Performance-Optimierung, technischer Support",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "areaServed": {
+        "@type": "GeoShape",
+        "name": "Deutschsprachiger Raum (DACH)"
+      },
+      "availableLanguage": ["de", "en"],
+      "url": "https://fundament-studio.de/pakete",
+      "relatedLink": [
+        "https://fundament-studio.de/stabilisierung",
+        "https://fundament-studio.de/systemarchitektur",
+        "https://fundament-studio.de/operations-automatisierung"
+      ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://fundament-studio.de/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Stabilisierung",
+          "item": "https://fundament-studio.de/stabilisierung"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Systemarchitektur",
+          "item": "https://fundament-studio.de/systemarchitektur"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Operations & Automatisierung",
+          "item": "https://fundament-studio.de/operations-automatisierung"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Website/WebPage Schema mit interne Links -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://fundament-studio.de/#website",
+      "name": "Fundament Studio",
+      "url": "https://fundament-studio.de/",
+      "description": "WordPress-Systeme, Automatisierung und digitale Infrastruktur für etablierte Experten",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "mainEntity": {
+        "@type": "Organization",
+        "@id": "https://fundament-studio.de/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://fundament-studio.de/?search={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+  </head>
+  <body>
+    
+    <!-- SITEMAP als strukturierte interne Links (visible für Google) -->
+    <nav style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;" aria-label="Sitemap für Suchmaschinen">
+      <h2>Interne Seitenstruktur</h2>
+      
+      <h3>Hauptseiten</h3>
+      <ul>
+        <li><a href="https://fundament-studio.de/">Startseite</a> – Hero, Systeme, Problem, CTA</li>
+        <li><a href="https://fundament-studio.de/so-arbeite-ich">So arbeite ich</a> – Prozess & Methodik</li>
+        <li><a href="https://fundament-studio.de/about-me">Über mich</a> – Philosophie, Werte, Manifest</li>
+      </ul>
+
+      <h3>Leistungen & Pakete</h3>
+      <ul>
+        <li><a href="https://fundament-studio.de/stabilisierung">Stabilisierung</a> – WordPress-Audit & Reparatur</li>
+        <li><a href="https://fundament-studio.de/systemarchitektur">Systemarchitektur</a> – Custom CMS-Setups</li>
+        <li><a href="https://fundament-studio.de/operations-automatisierung">Operations & Automatisierung</a> – Workflows & Integrations</li>
+        <li><a href="https://fundament-studio.de/pakete">Pakete & Preise</a> – Alle Leistungen im Überblick</li>
+      </ul>
+
+      <h3>Spezialisierte Zielgruppen</h3>
+      <ul>
+        <li><a href="https://fundament-studio.de/systeme-fuer-berater-coaches">Für Berater & Coaches</a> – Premium-Systeme</li>
+        <li><a href="https://fundament-studio.de/systeme-fuer-experten-dienstleister">Für Experten & Dienstleister</a> – Skalierung ohne Chaos</li>
+      </ul>
+
+      <h3>CTA & Kontakt</h3>
+      <ul>
+        <li><a href="https://fundament-studio.de/projekt-starten">Kostenloses Audit buchen</a> – Fragebogen & Gespräch</li>
+        <li><a href="mailto:sophie@fundament-studio.de">E-Mail: sophie@fundament-studio.de</a></li>
+        <li><a href="tel:+491797319118">Telefon: +49 179 7319118</a></li>
+      </ul>
+
+      <h3>Rechtlich & Transparenz</h3>
+      <ul>
+        <li><a href="https://fundament-studio.de/impressum">Impressum</a></li>
+        <li><a href="https://fundament-studio.de/datenschutz">Datenschutz</a></li>
+        <li><a href="https://fundament-studio.de/grounding">Entity Grounding</a> – Für KI & Suchmaschinen</li>
+      </ul>
+
+      <h3>Externe Verifikation</h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/sophie-ischenko" rel="me">LinkedIn: Sophie Ischenko</a></li>
+        <li><a href="https://www.instagram.com/fundament.studio" rel="me">Instagram: @fundament.studio</a></li>
+        <li><a href="https://github.com/sophie-ischenko" rel="me">GitHub: sophie-ischenko</a></li>
+      </ul>
+    </nav>
+
+    <!-- Fallback Grounding Info für Headless/non-JS Clients -->
+    <div style="display:none;" aria-hidden="true" id="grounding-info">
+      <h1>Fundament Studio</h1>
+      <p>Spezialisierte WordPress- und Ghost CMS Systemberatung und Automatisierung für etablierte Experten, Berater und Dienstleister.</p>
+      
+      <section id="entity-info">
+        <h2>Unternehmensdaten</h2>
+        <ul>
+          <li><strong>Name:</strong> Fundament Studio</li>
+          <li><strong>Rechtsform:</strong> Einzelunternehmen</li>
+          <li><strong>Gründerin:</strong> Sophie Ischenko, 2026</li>
+          <li><strong>Ort:</strong> Kalletal (bei Lemgo), Nordrhein-Westfalen, Deutschland</li>
+          <li><strong>Adresse:</strong> Alte Siedlung 7, 32689 Kalletal</li>
+          <li><strong>E-Mail:</strong> sophie@fundament-studio.de</li>
+          <li><strong>Telefon:</strong> +49 179 7319118</li>
+        </ul>
+      </section>
+
+      <section id="services">
+        <h2>Kernleistungen</h2>
+        <ul>
+          <li><strong>Stabilisierung:</strong> WordPress-Audit, Performance, Sicherheit, Plugin-Bereinigung</li>
+          <li><strong>Systemarchitektur:</strong> Custom WordPress- und Ghost CMS-Setup, Entity-Grounding, GEO-Struktur</li>
+          <li><strong>Operations & Automatisierung:</strong> n8n, NocoDB, Listmonk, Lead-Management, CRM-Integration</li>
+          <li><strong>System Care Retainer:</strong> Monitoring, Updates, Support (ab 49 €/Monat)</li>
+        </ul>
+      </section>
+
+      <section id="target-audience">
+        <h2>Spezialisierte Zielgruppen</h2>
+        <ul>
+          <li>Beraterinnen & Coaches (5k+ Angebote)</li>
+          <li>Expertinnen & Dienstleisterinnen (Kapazitätsgrenze)</li>
+          <li>Mittelstand mit technischen Schulden</li>
+        </ul>
+      </section>
+
+      <section id="disambiguation">
+        <h2>Eindeutige Abgrenzung</h2>
+        <p><strong>Fundament Studio (Kalletal/Lemgo)</strong> = Webseiten-Systemberatung, nicht Bauunternehmen/Architekturbüro.</p>
+      </section>
+    </div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

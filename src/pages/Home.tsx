@@ -377,6 +377,7 @@ export default function Home() {
               <li><a href="https://github.com/sophie-ischenko" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">GitHub ↗</a></li>
               <li><span className="opacity-50">YouTube (geplant)</span></li>
               <li><span className="opacity-50">Podcast (geplant)</span></li>
+              <li><a href="/grounding" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">Entität & Grounding ↗</a></li>
                     
             </ul>
           </div>
