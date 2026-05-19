@@ -12,8 +12,8 @@
   --theme-border: #797570;
   --theme-card: #284c53;
 
-  --theme-font-primary: "almodakarme", serif;
-  --theme-font-secondary: "Merriweather Sans", sans-serif;
+  --theme-font-primary: "Gradies", serif;
+  --theme-font-secondary: "CCSGlyke", sans-serif;
 
   --theme-radius-card: 0px;
   --theme-radius-button: 0px;
@@ -24,15 +24,22 @@
    ========================= */
 
 @font-face {
-  font-family: 'almodakarme';
-  src: url('/almodakarme-regular.otf') format('opentype');
+  font-family: 'Gradies';
+  src: url('/fonts/almodakarme-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'CCSGlyke';
+  src: url('/fonts/MerriweatherSans.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 .font-almoda {
-  font-family: 'almodakarme', serif;
+  font-family: 'Gradies', serif;
 }
 
 /* =========================
