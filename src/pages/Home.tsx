@@ -134,23 +134,26 @@ export default function Home() {
               </p>
               
               <ul className="space-y-4 font-secondary opacity-70 relative z-10">
-                <li className="flex items-start gap-3">
-                   <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-secondary)] shrink-0" />
-                   Web & KI im strukturellen Wandel
-                </li>
-                <li className="flex items-start gap-3">
-                   <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-text)] shrink-0 opacity-50" />
-                   Digitale Souveränität
-                </li>
-                <li className="flex items-start gap-3">
-                   <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-text)] shrink-0 opacity-50" />
-                   Machtstrukturen im digitalen Raum
-                </li>
-                <li className="flex items-start gap-3">
-                   <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-text)] shrink-0 opacity-50" />
-                   Bildung & digitale Selbstbestimmung
-                </li>
-              </ul>
+              <li className="flex items-start gap-3">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
+                Web & KI im strukturellen Wandel
+              </li>
+            
+              <li className="flex items-start gap-3">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
+                Digitale Souveränität
+              </li>
+            
+              <li className="flex items-start gap-3">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
+                Machtstrukturen im digitalen Raum
+              </li>
+            
+              <li className="flex items-start gap-3">
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
+                Bildung & digitale Selbstbestimmung
+              </li>
+            </ul>
               <a href="https://codex.fundament-studio.de" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center gap-2 font-primary uppercase border-b border-[var(--theme-border)] pb-1 hover:text-[var(--theme-accent)] hover:border-[var(--theme-accent)] transition-all relative z-10 hover-trigger">
                 Visit Journal <ArrowUpRight className="w-4 h-4" />
               </a>
@@ -193,10 +196,17 @@ export default function Home() {
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">WordPress</h3>
                       <p className="font-secondary opacity-60">Wenn Kontrolle, Flexibilität und ein breites Integrations-Ökosystem gefragt sind. Für Unternehmen, die ihr System selbst betreiben wollen.</p>
                     </div>
+
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-border)]">
-                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost Editorial</h3>
-                      <p className="font-secondary opacity-60">Wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll. Für Redaktionen und contentgetriebene Marken.</p>
-                    </div>
+                    <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">
+                      Ghost Editorial
+                    </h3>
+                  
+                    <p className="font-secondary opacity-60">
+                      Wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll.
+                      Für Redaktionen und contentgetriebene Marken.
+                    </p>
+                  </div>
                   </div>
                 </div>
               </div>
