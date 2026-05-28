@@ -151,6 +151,9 @@ export default function Home() {
                    Bildung & digitale Selbstbestimmung
                 </li>
               </ul>
+              <a href="https://codex.fundament-studio.de" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center gap-2 font-primary uppercase border-b border-[var(--theme-border)] pb-1 hover:text-[var(--theme-accent)] hover:border-[var(--theme-accent)] transition-all relative z-10 hover-trigger">
+                Visit Journal <ArrowUpRight className="w-4 h-4" />
+              </a>
             </motion.div>
           </div>
         </div>
@@ -191,7 +194,7 @@ export default function Home() {
                       <p className="font-secondary opacity-60">Wenn Kontrolle, Flexibilität und ein breites Integrations-Ökosystem gefragt sind. Für Unternehmen, die ihr System selbst betreiben wollen.</p>
                     </div>
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-secondary)]">
-                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost <span className="text-[var(--theme-secondary)] italic text-sm">Editorial</span></h3>
+                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost Editorial</span></h3>
                       <p className="font-secondary opacity-60">Wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll. Für Redaktionen und contentgetriebene Marken.</p>
                     </div>
                   </div>
@@ -372,7 +375,7 @@ export default function Home() {
             <p className="mb-6 text-[var(--theme-text)] font-primary text-2xl uppercase opacity-100">Kanäle</p>
             <ul className="space-y-4 font-secondary text-base">
               <li><a href="https://fundament-studio.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">Business / Fundament Studio ↗</a></li>
-              <li><span className="hover:text-[var(--theme-secondary)] transition-colors cursor-default text-[var(--theme-text)]">Magazin: Codex (publizistischer Raum)</span></li>
+              <li><a href="https://codex.fundament-studio.de" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">Magazin: Codex (publizistischer Raum)</a></li>
               <li><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">Instagram ↗</a></li>
               <li><a href="https://github.com/sophie-ischenko" target="_blank" rel="noopener noreferrer" className="hover:text-[var(--theme-accent)] transition-colors inline-block hover-trigger">GitHub ↗</a></li>
               <li><span className="opacity-50">YouTube (geplant)</span></li>
@@ -387,7 +390,7 @@ export default function Home() {
               <img
                     src="./Logo.svg"
                     alt="Fundament Studio"
-                    className="h-60 w-auto"
+                    className="h-40 w-auto"
                   />
             </a>
             
