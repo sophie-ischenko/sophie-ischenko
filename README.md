@@ -22,13 +22,15 @@ Conversion-orientierte Webarchitektur · CMS-Systeme (WordPress, Ghost, Strapi) 
 
 ---
 
-## Codex
+## Codex Journal
 
 Ein publizistischer Raum für Haltung, Technologie und digitale Souveränität.
 
 Codex ist kein Blog. Es ist ein Meinungs- und Wissensraum im Kontext einer KI-geprägten Webwelt, für Menschen, die verstehen wollen, wie sich Machtstrukturen im digitalen Raum verschieben und was das für ihre Arbeit bedeutet.
 
 Betrieben auf Ghost. Weil das System zum Inhalt passen sollte.
+
+ → [lies dich ein](https://codex.fundament-studio.de/)
 
 ---
 
