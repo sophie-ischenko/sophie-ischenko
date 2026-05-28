@@ -194,7 +194,7 @@ export default function Home() {
                       <p className="font-secondary opacity-60">Wenn Kontrolle, Flexibilität und ein breites Integrations-Ökosystem gefragt sind. Für Unternehmen, die ihr System selbst betreiben wollen.</p>
                     </div>
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-secondary)]">
-                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost Editorial</span></h3>
+                      <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost Editorial</h3>
                       <p className="font-secondary opacity-60">Wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll. Für Redaktionen und contentgetriebene Marken.</p>
                     </div>
                   </div>
