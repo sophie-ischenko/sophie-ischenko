@@ -193,7 +193,7 @@ export default function Home() {
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">WordPress</h3>
                       <p className="font-secondary opacity-60">Wenn Kontrolle, Flexibilität und ein breites Integrations-Ökosystem gefragt sind. Für Unternehmen, die ihr System selbst betreiben wollen.</p>
                     </div>
-                    <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-secondary)]">
+                    <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-border)]">
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost Editorial</h3>
                       <p className="font-secondary opacity-60">Wenn Content das Kerngeschäft ist und das System nicht im Weg stehen soll. Für Redaktionen und contentgetriebene Marken.</p>
                     </div>
@@ -326,7 +326,7 @@ export default function Home() {
            viewport={{ once: true }}
            className="max-w-[1000px] w-full text-center mb-32 border border-[var(--theme-border)]/20 p-12 md:p-24 bg-[var(--theme-text)]/5 rounded-sm relative overflow-hidden"
         >
-           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[var(--theme-accent)] to-[var(--theme-secondary)]" />
+           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[var(--theme-accent)] to-[var(--theme-border)]" />
            <h2 className="text-3xl md:text-5xl font-primary uppercase mb-6">Dieses Profil</h2>
            <p className="text-xl md:text-2xl font-secondary opacity-80 mb-12">
              Die technische Referenzebene meiner Arbeit, nicht als Selbstdarstellung, sondern als Dokumentation von Denkweise und Entscheidungen.
