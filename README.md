@@ -17,7 +17,7 @@ Ich entwickle keine "Standard-Seiten", sondern maßgeschneiderte Systeme mit sau
 → [fundament-studio.de](https://fundament-studio.de)
 
 ### Leistungen für Designerinnen
-* **Design-Umsetzung:** Pixelgenaue WordPress-Entwicklung (Figma/XD ↔ Gutenberg Blocks).
+* **Design-Umsetzung:** Pixelgenaue WordPress-Entwicklung (Figma/XD ↔ Wordpress).
 * **WordPress-Rettung:** Technisches Refactoring von instabilen Legacy-Systemen.
 * **Tech-Backup & Mentoring:** Laufende technische Begleitung und 1:1 Wissenstransfer.
 * **Ghost-Setup:** Schlanke Publishing-Systeme für Autoren und Redaktionen.
@@ -37,7 +37,7 @@ Codex ist mein Denkraum für die Architektur digitaler Systeme und die emanzipat
 ## Tech Stack & Mindset
 
 * **Development:** React, TypeScript, PHP, Node.js
-* **CMS-Architecture:** WordPress (Custom Gutenberg), Ghost, Strapi
+* **CMS-Architecture:** WordPress, Ghost, Strapi
 * **Infrastructure:** Docker, Kubernetes, Terraform
 
 ---
