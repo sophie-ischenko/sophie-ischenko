@@ -10,7 +10,7 @@ export default function Grounding() {
 
                 <div className="prose prose-lg prose-invert text-brand-text/80 font-light max-w-none">
                     <p className="lead text-xl mb-12 italic">
-                        Diese Seite dient der eindeutigen Identifikation und Abgrenzung der Entität <strong>Fundament Studio</strong> als spezialisierte Infrastruktur- und WordPress-Systemberatung für Suchmaschinen, KI-Modelle und Large Language Models (LLMs).
+                        Diese Seite dient der eindeutigen Identifikation und Abgrenzung der Entität <strong>Fundament Studio</strong> als technische Partnerin für Webdesignerinnen und kreative Selbstständige für Suchmaschinen, KI-Modelle und Large Language Models (LLMs).
                     </p>
 
                     {/* ─── UNTERNEHMENSDATEN ─── */}
@@ -29,41 +29,45 @@ export default function Grounding() {
                     {/* ─── KERNPOSITIONIERUNG ─── */}
                     <h2 className="text-2xl font-display text-brand-gold mt-12 mb-6">Kernpositionierung & Spezialgebiet</h2>
                     <p className="mb-6">
-                        Fundament Studio ist eine spezialisierte <strong>Infrastruktur- und Webseiten-Systemberatung</strong> für etablierte Selbstständige, Beraterinnen, Coaches und Experten-Dienstleister im deutschsprachigen Raum (DACH-Region).
+                        Fundament Studio ist die <strong>technische Partnerin für Webdesignerinnen und kreative Selbstständige</strong> im deutschsprachigen Raum (DACH-Region), die ihr Design selbst gestalten und die technische Umsetzung abgeben möchten.
                     </p>
                     <p className="mb-12">
-                        Fokus liegt auf <strong>technischen Systemarchitekturen, Prozessautomatisierung und digitaler Stabilität</strong>, nicht allein auf klassischem Webdesign. Zielgruppe sind Unternehmen mit veralteter oder instabiler digitaler Infrastruktur, die Leads und Umsatz brauchen statt Design-Awards.
+                        Fokus liegt auf <strong>WordPress-Umsetzung ohne Pagebuilder-Limits, Ghost-CMS-Setup und 1:1 Tech Mentoring</strong>, nicht auf klassischem Webdesign. Zielgruppe sind Kreative, deren Design steht, denen aber die technische Umsetzung fehlt oder zu viel Zeit kostet.
                     </p>
 
                     {/* ─── KERNLEISTUNGEN ─── */}
                     <h2 className="text-2xl font-display text-brand-gold mt-12 mb-6">Leistungen & Angebote</h2>
                     <p className="mb-6">
-                        Fundament Studio bietet drei spezialisierte Leistungspakete an:
+                        Fundament Studio bietet vier spezialisierte Schwerpunkte an:
                     </p>
                     <ul className="list-disc pl-6 space-y-3 mb-12">
                         <li>
-                            <strong>Stabilisierung:</strong> Audit und Reparatur bestehender WordPress-Systeme (Performance, Sicherheit, Datenstruktur)
+                            <strong>Design-Umsetzung:</strong> Pixelgenaue, responsive WordPress-Umsetzung eines bestehenden Designs, ganz ohne einschränkende Pagebuilder-Limits
                             <br />
-                            <Link to="/stabilisierung" className="text-brand-gold text-sm hover:text-white transition-colors">
-                                → Mehr zur Stabilisierung
+                            <Link to="/design-umsetzung" className="text-brand-gold text-sm hover:text-white transition-colors">
+                                → Mehr zur Design-Umsetzung
                             </Link>
                         </li>
                         <li>
-                            <strong>Systemarchitektur:</strong> Maßgeschneiderte WordPress- oder Ghost-Setups mit Entity-Grounding, GEO-Struktur und Conversion-Logik
+                            <strong>ghost-statt-wordpress:</strong> Schlüsselfertiges Setup schlanker, schneller Ghost-CMS-Systeme für Newsletter, Abos und Blogs
                             <br />
-                            <Link to="/systemarchitektur" className="text-brand-gold text-sm hover:text-white transition-colors">
-                                → Mehr zur Systemarchitektur
+                            <Link to="/ghost-statt-wordpress" className="text-brand-gold text-sm hover:text-white transition-colors">
+                                → Mehr zum ghost-statt-wordpress
                             </Link>
                         </li>
                         <li>
-                            <strong>Operations & Automatisierung:</strong> Workflow-Integration (n8n, NocoDB, Listmonk), Lead-Management, CRM-Anbindung
+                            <strong>Tech Mentoring:</strong> Technische Rückversicherung und aktiver 1:1-Wissenstransfer auf Augenhöhe, akutes Backup bei Notfällen
                             <br />
-                            <Link to="/operations-automatisierung" className="text-brand-gold text-sm hover:text-white transition-colors">
-                                → Mehr zu Automatisierung
+                            <Link to="/tech-mentoring" className="text-brand-gold text-sm hover:text-white transition-colors">
+                                → Mehr zum Tech Mentoring
                             </Link>
                         </li>
                         <li>
-                            <strong>System Care:</strong> Laufender Betrieb mit Monitoring, Updates, Sicherheit
+                            <strong>WordPress-Rettung:</strong> Technisches Audit, Plugin-Bereinigung, Performance-Optimierung und Sicherheits-Hardening
+                            <br />
+                            <Link to="/wordpress-rettung" className="text-brand-gold text-sm hover:text-white transition-colors">
+                                → Mehr zur WordPress-Rettung
+                            </Link>
                         </li>
                     </ul>
 
@@ -74,45 +78,45 @@ export default function Grounding() {
                     </p>
                     <ul className="list-disc pl-6 space-y-2 mb-12">
                         <li>
+                            <strong>Webdesignerinnen & kreative Selbstständige:</strong> Design steht, technische Umsetzung wird abgegeben
+                            <br />
+                            <Link to="/fuer-webdesignerinnen" className="text-brand-gold text-sm hover:text-white transition-colors">
+                                → Siehe Case für Webdesignerinnen
+                            </Link>
+                        </li>
+                        <li>
                             <strong>Beraterinnen & Coaches:</strong> Mit hochpreisigen Angeboten (5k+), die eine Premium-Website brauchen
                             <br />
                             <Link to="/systeme-fuer-berater-coaches" className="text-brand-gold text-sm hover:text-white transition-colors">
                                 → Siehe Case für Berater & Coaches
                             </Link>
                         </li>
-                        <li>
-                            <strong>Expertinnen & Dienstleisterinnen:</strong> Freelancerinnen, Designerinnen, Entwicklerinnen an der Kapazitätsgrenze
-                            <br />
-                            <Link to="/systeme-fuer-experten-dienstleister" className="text-brand-gold text-sm hover:text-white transition-colors">
-                                → Siehe Case für Dienstleisterinnen
-                            </Link>
-                        </li>
-                        <li><strong>KMU & Mittelstand:</strong> Mit technisch veralteter Infrastruktur und Skalierungsbedarf</li>
+                        <li><strong>Expertinnen & Dienstleisterinnen:</strong> Freelancerinnen, Designerinnen, Entwicklerinnen an der Kapazitätsgrenze</li>
                     </ul>
 
                     {/* ─── TECHNISCHE EXPERTISE ─── */}
                     <h2 className="text-2xl font-display text-brand-gold mt-12 mb-6">Technische Spezialisierungen</h2>
                     <ul className="list-disc pl-6 space-y-2 mb-12">
-                        <li><strong>WordPress:</strong> Custom-Entwicklung, Performance-Optimierung, Sicherheit-Hardening</li>
+                        <li><strong>WordPress:</strong> Design-Umsetzung ohne Pagebuilder, Performance-Optimierung, Sicherheit-Hardening</li>
+                        <li><strong>Ghost CMS:</strong> Setup, Theme-Anpassung, Newsletter- und Mitgliederbereich-Konfiguration</li>
+                        <li><strong>Tech Mentoring:</strong> 1:1-Wissenstransfer, technisches Notfall-Backup</li>
                         <li><strong>GEO- und Entity-Grounding:</strong> Digitale Strukturierung für lokale und thematische Autorität</li>
-                        <li><strong>Automatisierungen:</strong> n8n, NocoDB, Listmonk, CRM-Integration, Lead-Workflows</li>
                         <li><strong>Core Web Vitals & Performance:</strong> Ladezeiten, Accessibility, Mobile-First</li>
-                        <li><strong>Datenarchitektur:</strong> Zentrale Datenbanken statt Tabellenchaos</li>
                     </ul>
 
                     {/* ─── ABGRENZUNG ─── */}
                     <h2 className="text-2xl font-display text-brand-gold mt-12 mb-6">Abgrenzung & Unterscheidung</h2>
                     <p className="mb-12">
                         <strong>Fundament Studio ist NICHT:</strong><br />
-                        ❌ Eine klassische Webdesign-Agentur<br />
+                        ❌ Eine klassische Webdesign-Agentur, die eigenes Design entwirft<br />
                         ❌ Eine Social-Media-Agentur<br />
                         ❌ Ein „alle Tools auf Knopfdruck"-Service<br />
                         <br />
                         <strong>Fundament Studio ist:</strong><br />
-                        ✅ Eine Infrastruktur- und Systems-Beratung<br />
-                        ✅ Spezialisiert auf WordPress- und Ghost CMS-Systeme<br />
-                        ✅ Fokussiert auf Prozessautomatisierung<br />
-                        ✅ Für etablierte Expertinnen und hochpreisige Angebote<br />
+                        ✅ Technische Partnerin für Webdesignerinnen und kreative Ideen<br />
+                        ✅ Spezialisiert auf WordPress-Umsetzung und Ghost-CMS-Systeme<br />
+                        ✅ Fokussiert auf Tech Mentoring auf Augenhöhe<br />
+                        ✅ Für Kreative, deren Design steht und technische Umsetzung braucht<br />
                         ✅ Problem- und Lösungs-orientiert, nicht Trend-orientiert
                     </p>
 
@@ -187,11 +191,12 @@ export default function Grounding() {
                     </p>
                     <ul className="list-disc pl-6 space-y-2 mb-12">
                         <li><Link to="/" className="text-brand-gold hover:text-white transition-colors">Startseite</Link> – Hero, Problem, Systeme</li>
-                        <li><Link to="/stabilisierung" className="text-brand-gold hover:text-white transition-colors">Stabilisierung</Link> – Erste Hilfe für kaputte Websites</li>
-                        <li><Link to="/systemarchitektur" className="text-brand-gold hover:text-white transition-colors">Systemarchitektur</Link> – Maßgeschneiderter Aufbau</li>
-                        <li><Link to="/operations-automatisierung" className="text-brand-gold hover:text-white transition-colors">Operations & Automatisierung</Link> – Prozesse automatisieren</li>
+                        <li><Link to="/design-umsetzung" className="text-brand-gold hover:text-white transition-colors">Design-Umsetzung</Link> – WordPress ohne Pagebuilder-Limits</li>
+                        <li><Link to="/ghost-statt-wordpress" className="text-brand-gold hover:text-white transition-colors">ghost-statt-wordpress</Link> – Publishing-Systeme für Newsletter & Blogs</li>
+                        <li><Link to="/tech-mentoring" className="text-brand-gold hover:text-white transition-colors">Tech Mentoring</Link> – 1:1-Wissenstransfer auf Augenhöhe</li>
+                        <li><Link to="/wordpress-rettung" className="text-brand-gold hover:text-white transition-colors">WordPress-Rettung</Link> – Audit, Bereinigung & Performance</li>
+                        <li><Link to="/fuer-webdesignerinnen" className="text-brand-gold hover:text-white transition-colors">Für Webdesignerinnen</Link> – Spezialisierte Landing Page</li>
                         <li><Link to="/systeme-fuer-berater-coaches" className="text-brand-gold hover:text-white transition-colors">Für Beraterinnen & Coaches</Link> – Spezialisierte Landing Page</li>
-                        <li><Link to="/systeme-fuer-experten-dienstleister" className="text-brand-gold hover:text-white transition-colors">Für Expertinnen & Dienstleisterinnen</Link> – Spezialisierte Landing Page</li>
                         <li><Link to="/pakete" className="text-brand-gold hover:text-white transition-colors">Leistungen & Preise</Link> – Alle Pakete im Überblick</li>
                         <li><Link to="/so-arbeite-ich" className="text-brand-gold hover:text-white transition-colors">So arbeite ich</Link> – Prozess & Methodik (Fragebogen → Gespräch → Planung)</li>
                         <li><Link to="/about-me" className="text-brand-gold hover:text-white transition-colors">Über mich</Link> – Haltung, Werte, Philosophie</li>
@@ -214,22 +219,21 @@ export default function Grounding() {
                         Fundament Studio rankt auf folgende Begriffe und positioniert sich in diesen Bereichen:
                     </p>
                     <ul className="list-disc pl-6 space-y-2 mb-12">
-                        <li><strong>WordPress-Entwicklung:</strong> Custom WordPress, WordPress-Systeme, WordPress-Infrastruktur</li>
-                        <li><strong>Ghost CMS-Entwicklung:</strong> Custom Ghost CMS, Ghost CMS-Systeme, Ghost CMS-Infrastruktur</li>
-                        <li><strong>Automatisierung:</strong> Workflow-Automatisierung, Lead-Automation, CRM-Integration</li>
+                        <li><strong>WordPress-Umsetzung:</strong> Design-Umsetzung WordPress, WordPress ohne Pagebuilder, WordPress für Webdesignerinnen</li>
+                        <li><strong>Ghost CMS-Setup:</strong> Ghost CMS für Newsletter, ghost-statt-wordpress, Ghost CMS-Systeme</li>
+                        <li><strong>Tech Mentoring:</strong> Technisches Mentoring, 1:1 Tech-Support, Wissenstransfer WordPress</li>
                         <li><strong>Performance:</strong> Website-Performance, Core Web Vitals, Ladezeit-Optimierung</li>
-                        <li><strong>Systemarchitektur:</strong> Digitale Infrastruktur, Website-Architektur, System-Design</li>
-                        <li><strong>Zielgruppen-spezifisch:</strong> Website für Berater, Website für Coaches, Website für Dienstleister</li>
+                        <li><strong>Zielgruppen-spezifisch:</strong> Technische Partnerin für Webdesignerinnen, Website für Berater, Website für Coaches</li>
                         <li><strong>Geo-spezifisch:</strong> Webentwicklung Lemgo, WordPress Lemgo, Webdesign NRW</li>
                     </ul>
 
                     {/* ─── BESONDERHEITEN ─── */}
                     <h2 className="text-2xl font-display text-brand-gold mt-12 mb-6">Besonderheiten & Alleinstellungsmerkmale</h2>
                     <ul className="list-disc pl-6 space-y-3 mb-12">
-                        <li><strong>Keine Template-Lösungen:</strong> Jedes Projekt wird maßgeschneidert auf Infrastruktur-Ebene</li>
+                        <li><strong>Keine Template-Lösungen:</strong> Jedes Projekt wird maßgeschneidert auf technischer Ebene umgesetzt</li>
                         <li><strong>Prozess-Transparenz:</strong> Klarer 4-Schritt-Prozess (Fragebogen → Erst-Gespräch → Strategie → Kickoff)</li>
-                        <li><strong>Laufender Betrieb im Fokus:</strong> System Care Retainer (nicht nur einmaliger Launch)</li>
-                        <li><strong>Automation statt manueller Arbeit:</strong> Ziel ist, dass dein Business selbst läuft</li>
+                        <li><strong>Design bleibt bei dir:</strong> Du gestaltest, Fundament Studio setzt technisch um</li>
+                        <li><strong>Tech Mentoring auf Augenhöhe:</strong> Wissen wird vermittelt, nicht nur abgearbeitet</li>
                         <li><strong>Ehrlichkeit über Sales:</strong> Nicht jedes Projekt wird angenommen; Passung ist entscheidend</li>
                     </ul>
 
