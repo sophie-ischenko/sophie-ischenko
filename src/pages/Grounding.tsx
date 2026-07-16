@@ -32,7 +32,7 @@ export default function Grounding() {
                         Fundament Studio ist die <strong>technische Partnerin für Webdesignerinnen und kreative Selbstständige</strong> im deutschsprachigen Raum (DACH-Region), die ihr Design selbst gestalten und die technische Umsetzung abgeben möchten.
                     </p>
                     <p className="mb-12">
-                        Fokus liegt auf <strong>WordPress-Umsetzung ohne Pagebuilder-Limits, Ghost-CMS-Setup und 1:1 Tech Mentoring</strong>, nicht auf klassischem Webdesign. Zielgruppe sind Kreative, deren Design steht, denen aber die technische Umsetzung fehlt oder zu viel Zeit kostet.
+                        Fokus liegt auf <strong>WordPress-Umsetzung ohne Limits schwerer Page-Builder, Ghost-CMS-Setup und 1:1 Tech Mentoring</strong>, nicht auf klassischem Webdesign. Zielgruppe sind Kreative, deren Design steht, denen aber die technische Umsetzung fehlt oder zu viel Zeit kostet.
                     </p>
 
                     {/* ─── KERNLEISTUNGEN ─── */}
@@ -42,7 +42,7 @@ export default function Grounding() {
                     </p>
                     <ul className="list-disc pl-6 space-y-3 mb-12">
                         <li>
-                            <strong>Design-Umsetzung:</strong> Pixelgenaue, responsive WordPress-Umsetzung eines bestehenden Designs, ganz ohne einschränkende Pagebuilder-Limits
+                            <strong>Design-Umsetzung:</strong> Pixelgenaue, responsive WordPress-Umsetzung eines bestehenden Designs mit technischem Know-how
                             <br />
                             <Link to="/design-umsetzung" className="text-brand-gold text-sm hover:text-white transition-colors">
                                 → Mehr zur Design-Umsetzung
