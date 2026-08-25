@@ -58,10 +58,10 @@ export default function Home() {
             >
               <p className="text-sm uppercase tracking-widest font-mono opacity-60 mb-6 text-[var(--theme-accent)]">Technical Partner for Designers</p>
               <p className="text-xl md:text-2xl leading-relaxed font-secondary opacity-80 mb-6">
-                Ich übersetze außergewöhnliche visuelle Entwürfe in unerschütterliche technische Fundamente.
+                Ich sichere die visuelle Integrität durch technische Exzellenz. Wo Design an seine Grenzen stößt, baue ich das Fundament.
               </p>
               <p className="text-lg leading-relaxed font-secondary opacity-60">
-                Informatik trifft Gestaltung. Ich baue die unsichtbare Struktur, die Webdesign zum Wirken bringt. Updatesicher, performant und pixelgenau – damit kreative Ideen nicht an technischer Instabilität scheitern.
+                Informatik trifft Gestaltung. Ich entwickle die unsichtbaren Architekturen, die anspruchsvolles Webdesign erst wirksam machen. Wartbar, performant und kompromisslos in der Umsetzung – damit mutige Ideen nicht an technischer Instabilität scheitern.
               </p>
             </motion.div>
           </motion.div>
@@ -88,25 +88,25 @@ export default function Home() {
               <p className="text-[var(--theme-accent)] font-mono text-sm uppercase tracking-widest mb-8 relative z-10 mt-6">Development Partner</p>
               
               <p className="font-secondary opacity-80 mb-8 text-lg relative z-10">
-                Die technische Verlängerung für Webdesignerinnen. Ich übernehme die Umsetzung, Stabilisierung und Wartung komplexer Projekte, während du dich auf die Kreation konzentrierst.
+                Das technische Rückgrat für Designstudios. Ich übernehme die Implementierung, Systempflege und technologische Skalierung, damit der Fokus auf der Kreation bleiben kann.
               </p>
               
               <ul className="space-y-4 font-secondary opacity-70 relative z-10">
                 <li className="flex items-start gap-3">
                    <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
-                   Pixelgenaue WordPress-Umsetzung
+                   High-End WordPress Engineering (Custom)
                 </li>
                 <li className="flex items-start gap-3">
                    <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
-                   WordPress-Rettung & technisches Refactoring
+                   System-Audit & Refactoring (Legacy-Code)
                 </li>
                 <li className="flex items-start gap-3">
                    <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
-                   Ghost-Setup für Publizistinnen & Autoren
+                   Ghost-Infrastrukturen für digitales Publizieren
                 </li>
                 <li className="flex items-start gap-3">
                    <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
-                   Langfristiges Tech-Backup & Mentoring
+                   Technisches Mentoring & Langzeit-Begleitung
                 </li>
               </ul>
               
@@ -130,21 +130,21 @@ export default function Home() {
               <p className="text-[var(--theme-accent)] font-mono text-sm uppercase tracking-widest mb-8 mt-6 relative z-10">Technical Sovereignty</p>
               
               <p className="font-secondary opacity-80 mb-8 text-lg relative z-10">
-                Mein publizistischer Raum für technische Souveränität. Hier dokumentiere ich den strukturellen Wandel des Webs und wie wir Architektur als Emanzipation nutzen können.
+                Ein Diskursraum über digitale Substanz. Ich dokumentiere den strukturellen Wandel des Webs und untersuche, wie technische Souveränität zur Emanzipation im digitalen Raum führt.
               </p>
               
               <ul className="space-y-4 font-secondary opacity-70 relative z-10">
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-accent)] shrink-0" />
-                Informatik als Basis für Design-Souveränität
+                Informatik als Werkzeug der Gestaltungshoheit
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
-                Architektur technischer Systeme
+                Dekonstruktion technischer Systeme
               </li>
               <li className="flex items-start gap-3">
                 <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
-                Web-Infrastruktur & Unabhängigkeit
+                Infrastruktur & digitale Unabhängigkeit
               </li>
             </ul>
               <a href="https://codex.fundament-studio.de" target="_blank" rel="noopener noreferrer" className="mt-12 inline-flex items-center gap-2 font-primary uppercase border-b border-[var(--theme-border)] pb-1 hover:text-[var(--theme-accent)] hover:border-[var(--theme-accent)] transition-all relative z-10 hover-trigger">
@@ -162,35 +162,35 @@ export default function Home() {
               
               <div className="w-[100vw] flex-shrink-0 px-6 md:px-12 flex items-center">
                 <div className="max-w-2xl">
-                  <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">Übersetzung</h2>
+                  <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">Architektur</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-accent)] mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Ich übersetze kreative Visionen in sauberen Code. Structure before Surface bedeutet: Die Technik schützt das Design.
+                    Structure before Surface. Code ist bei mir kein Selbstzweck, sondern der Schutzschild für dein Design. Ich übersetze visuelle Logik in semantische Architektur.
                   </p>
                   <ul className="space-y-4 font-secondary opacity-70">
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> WordPress Design-Umsetzung (Figma/XD ↔ Code)</li>
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Rettung festgefahrener Legacy-Systeme</li>
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Aufbau wartbarer Gutenberg-Komponenten</li>
-                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Tech-Mentoring für Designerinnen</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Design-to-Code Integrität (Figma ↔ Production)</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Restrukturierung komplexer System-Altlasten</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Entwicklung modularer, wartbarer Ökosysteme</li>
+                    <li className="flex gap-4 items-center border border-[var(--theme-border)]/20 p-4"><Zap className="w-5 h-5 text-[var(--theme-accent)] flex-shrink-0" /> Technical Consulting für Design-Teams</li>
                   </ul>
                 </div>
               </div>
 
               <div className="w-[100vw] flex-shrink-0 px-6 md:px-12 flex items-center">
                 <div className="max-w-2xl">
-                  <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">System-Wahl</h2>
+                  <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">System-Neutralität</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-text)] opacity-30 mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Ich arbeite werkzeugneutral. Die Anforderung deiner Gestaltung definiert das CMS.
+                    Die Anforderung diktiert das Werkzeug. Ich arbeite technologie-agnostisch, um für jedes Design die optimale Infrastruktur zu wählen.
                   </p>
                   <div className="space-y-6">
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-border)]">
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">WordPress Custom</h3>
-                      <p className="font-secondary opacity-60">Wenn volle Kontrolle über das Design und eine einfache Content-Pflege für die Kundin oberste Priorität haben. Keine fertigen Themes, nur sauberer Code.</p>
+                      <p className="font-secondary opacity-60">Maximale Freiheit in der Gestaltung bei intuitiver Redaktion. Kein Overhead, nur präziser Code.</p>
                     </div>
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-border)]">
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-text)]">Ghost Editorial</h3>
-                      <p className="font-secondary opacity-60">Wenn der Content die Hauptrolle spielt. Für Redaktionen und Autorinnen, die ein blitzschnelles, fokussiertes System brauchen.</p>
+                      <p className="font-secondary opacity-60">Wenn Content die Architektur bestimmt. Schlanke, performante Systeme für modernen Journalismus.</p>
                     </div>
                   </div>
                 </div>
@@ -201,12 +201,12 @@ export default function Home() {
                   <h2 className="text-[clamp(2.5rem,5vw,4rem)] font-primary uppercase mb-8 leading-[0.9]">Informatik & Design</h2>
                   <div className="w-12 h-[2px] bg-[var(--theme-accent)] mb-8" />
                   <p className="font-secondary opacity-80 text-xl leading-relaxed mb-8">
-                    Mein Background als Informatikerin sorgt dafür, dass deine Entwürfe auf einer Architektur stehen, die nicht nach drei Updates zusammenbricht.
+                    Haltung durch Methodik. Mein Hintergrund in der Informatik garantiert Systeme, die nicht nur heute funktionieren, sondern übermorgen noch skalierbar sind.
                   </p>
                   <div className="space-y-6">
                     <div className="p-6 bg-[var(--theme-text)]/5 border-l-4 border-[var(--theme-accent)]">
                       <h3 className="font-primary text-xl uppercase mb-2 text-[var(--theme-accent)]">Structure before Surface</h3>
-                      <p className="font-secondary opacity-60">Erst wenn die Datenstruktur, das Hosting und die CMS-Architektur perfekt stehen, wird die Oberfläche zum Leben erweckt. Das garantiert maximale Langlebigkeit.</p>
+                      <p className="font-secondary opacity-60">Erst wenn Datenstruktur und Hosting-Architektur fehlerfrei ineinandergreifen, wird die Oberfläche lebendig. Langlebigkeit ist eine Frage der Logik.</p>
                     </div>
                   </div>
                 </div>
@@ -230,25 +230,25 @@ export default function Home() {
                  whileInView={{ opacity: 1, x: 0 }}
                  viewport={{ once: true }}
                >
-                 <h2 className="text-[clamp(2.5rem,6vw,5rem)] font-primary uppercase mb-4 md:mb-6 leading-none">Denkweise</h2>
-                 <p className="text-lg md:text-xl font-secondary opacity-70 mb-8 md:mb-12 border-b border-[var(--theme-bg)]/20 pb-4 md:pb-8">Mein Versprechen an deine Gestaltung:</p>
+                 <h2 className="text-[clamp(2.5rem,6vw,5rem)] font-primary uppercase mb-4 md:mb-6 leading-none">Prinzipien</h2>
+                 <p className="text-lg md:text-xl font-secondary opacity-70 mb-8 md:mb-12 border-b border-[var(--theme-bg)]/20 pb-4 md:pb-8">Mein Versprechen an die Gestaltung:</p>
                  
                  <div className="space-y-4 md:space-y-8 font-secondary">
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/01</span>
-                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Keine Baukasten-Kompromisse</h4>
+                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Methodik statt Workaround</h4>
                    </motion.div>
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/02</span>
-                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Saubere Trennung von Struktur & Design</h4>
+                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Architektonische Trennung</h4>
                    </motion.div>
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/03</span>
-                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Wartbare Backends für deine Kundinnen</h4>
+                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Backend-Empowerment</h4>
                    </motion.div>
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/04</span>
-                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Informatik-Logik statt Agentur-Pfusch</h4>
+                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Engineering-Mentalität</h4>
                    </motion.div>
                  </div>
                </motion.div>
@@ -289,20 +289,20 @@ export default function Home() {
            className="max-w-[1000px] w-full text-center mb-32 border border-[var(--theme-border)]/20 p-12 md:p-24 bg-[var(--theme-text)]/5 rounded-sm relative overflow-hidden"
         >
            <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[var(--theme-accent)] to-[var(--theme-border)]" />
-           <h2 className="text-3xl md:text-5xl font-primary uppercase mb-6">Das technische Profil</h2>
+           <h2 className="text-3xl md:text-5xl font-primary uppercase mb-6">Die technische Referenz</h2>
            <p className="text-xl md:text-2xl font-secondary opacity-80 mb-12">
-             Diese Seite dient als technische Referenz meiner Arbeit für Webdesignerinnen – eine Dokumentation der Informatik hinter dem Design.
+             Diese Präsenz ist eine Dokumentation der Informatik hinter dem Design. Sie zeigt nicht nur Oberflächen, sondern die strukturelle Sicherheit, die für außergewöhnliche digitale Erlebnisse notwendig ist.
            </p>
            
            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-left max-w-4xl mx-auto font-secondary opacity-80 text-lg mb-16">
              <motion.div className="border-t border-[var(--theme-accent)] pt-4">
-               Zeigt die <span className="text-[var(--theme-accent)] font-medium">Struktur</span> hinter außergewöhnlichen Oberflächen.
+               Macht die <span className="text-[var(--theme-accent)] font-medium">Struktur</span> hinter der Ästhetik sichtbar.
              </motion.div>
              <motion.div className="border-t border-[var(--theme-text)] pt-4">
-               Dokumentiert die <span className="text-[var(--theme-text)] font-medium">technische Sicherheit</span> für deine Kundenprojekte.
+               Belegt die <span className="text-[var(--theme-text)] font-medium">technische Resilienz</span> für anspruchsvolle Projekte.
              </motion.div>
              <motion.div className="border-t border-[var(--theme-border)] pt-4">
-               Veranschaulicht das Zusammenspiel von <span className="text-[var(--theme-border)] font-medium">Informatik und Ästhetik</span>.
+               Verbindet <span className="text-[var(--theme-border)] font-medium">Informatik mit Design-Anspruch</span> zu einer Einheit.
              </motion.div>
            </div>
            
