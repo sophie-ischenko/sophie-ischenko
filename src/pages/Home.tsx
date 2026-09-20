@@ -1018,14 +1018,16 @@ export default function Home() {
             z-10
           >
 
-            <div className="
-              grid
-              grid-cols-1
-              md:grid-cols-[1fr_1.5fr]
-              gap-10
-              md:gap-16
-              items-center
-            ">
+            <div
+          className="
+            grid
+            grid-cols-1
+            md:grid-cols-[1fr_1.5fr]
+            gap-10
+            md:gap-16
+            items-center
+          "
+        >
 
               <motion.div
                 initial={{
