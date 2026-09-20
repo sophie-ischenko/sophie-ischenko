@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { motion, useScroll, useTransform, useSpring } from 'motion/react';
+import { motion, useScroll, useTransform } from 'motion/react';
 import {
   ArrowUpRight,
   ArrowRight,
@@ -30,14 +30,8 @@ export default function Home() {
     offset: ['start start', 'end end'],
   });
 
-  const smoothHorizontalProgress = useSpring(horizontalProgress, {
-    stiffness: 90,
-    damping: 30,
-    mass: 0.5,
-  });
-
   const x = useTransform(
-    smoothHorizontalProgress,
+    horizontalProgress,
     [0, 1],
     ['0%', '-66.666%']
   );
@@ -49,14 +43,8 @@ export default function Home() {
     offset: ['start center', 'end center'],
   });
 
-  const smoothSection4Progress = useSpring(section4Progress, {
-    stiffness: 90,
-    damping: 30,
-    mass: 0.5,
-  });
-
   const clipPath = useTransform(
-    smoothSection4Progress,
+    section4Progress,
     [0, 0.4],
     ['inset(100% 0 0 0)', 'inset(0% 0 0 0)']
   );
@@ -615,7 +603,7 @@ export default function Home() {
         ref={horizontalRef}
         className="
           relative
-          h-[450vh]
+          h-[300vh]
           bg-brand-lime
         "
       >
@@ -962,7 +950,7 @@ export default function Home() {
         ref={section4Ref}
         className="
           relative
-          h-[350vh]
+          h-[250vh]
           bg-brand-bg
         "
       >
