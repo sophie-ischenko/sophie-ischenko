@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import {
   ArrowUpRight,
+  ArrowRight,
   Code,
   Terminal,
   Zap,
@@ -1002,32 +1003,34 @@ export default function Home() {
             opacity-80
           " />
 
-          <div className="
-            max-w-[1400px]
-            w-full
-            mx-auto
-            px-6
-            md:px-12
-            py-12
-            md:py-24
-            h-full
-            flex
-            flex-col
-            justify-center
-            relative
-            z-10
+          <div
+            className="
+              max-w-[1400px]
+              w-full
+              mx-auto
+              px-6
+              md:px-12
+              py-12
+              md:py-24
+              h-full
+              flex
+              flex-col
+              justify-center
+              relative
+              z-10
+            "
           >
 
             <div
-          className="
-            grid
-            grid-cols-1
-            md:grid-cols-[1fr_1.5fr]
-            gap-10
-            md:gap-16
-            items-center
-          "
-        >
+              className="
+                grid
+                grid-cols-1
+                md:grid-cols-[1fr_1.5fr]
+                gap-10
+                md:gap-16
+                items-center
+              "
+            >
 
               <motion.div
                 initial={{
@@ -1346,7 +1349,7 @@ export default function Home() {
             rounded-full
             bg-brand-pink
             opacity-70
-          />
+          " />
 
           <div className="
             absolute
