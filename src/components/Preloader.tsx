@@ -42,7 +42,7 @@ export function Preloader() {
       initial={{ y: 50 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, delay: 0.2 }}
-      className="text-[clamp(6rem,15vw,10rem)] font-primary tracking-tighter leading-none mix-blend-difference text-white"
+      className="text-[clamp(6rem,15vw,10rem)] font-primary tracking-tighter leading-none mix-blend-difference theme-text"
     >
       {progress}%
     </motion.div>
