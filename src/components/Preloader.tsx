@@ -51,7 +51,7 @@ export function Preloader() {
   <motion.img
     initial={{ opacity: 0, y: 10 }}
     animate={{ opacity: 1, y: 0 }}
-    src="./Logo_klein.png"
+    src="./Logo_klein.svg"
     alt="Fundament Studio"
     className="mt-6 h-32 w-auto object-contain"
   />
