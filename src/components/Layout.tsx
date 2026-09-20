@@ -3,7 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Preloader } from './Preloader';
 import { NoiseOverlay } from './NoiseOverlay';
 import { MorphingShape } from './MorphingShape';
-import { AnimatePresence, motion, useScroll, useSpring, useMotionValueEvent } from 'motion/react';
+import { AnimatePresence, motion, useScroll, useSpring, useMotionValueEvent, frame, cancelFrame } from 'motion/react';
 import Lenis from 'lenis';
 
 export function Layout({ children }: { children: ReactNode }) {
@@ -34,17 +34,19 @@ export function Layout({ children }: { children: ReactNode }) {
       smoothWheel: true,
     });
 
-    let rafId: number;
+    // Lenis in den Frame-Loop von Framer Motion einhängen, statt einen
+    // eigenen requestAnimationFrame-Loop zu fahren. So ticken Lenis'
+    // Scroll-Updates und Framer Motions scrollYProgress im selben Frame -
+    // vorher liefen beide leicht versetzt, wodurch Transforms (Slider,
+    // Clip-Path etc.) der tatsächlichen Scroll-Position hinterherhinkten.
+    function update({ timestamp }: { timestamp: number }) {
+      lenis.raf(timestamp);
+    }
 
-    const raf = (time: number) => {
-      lenis.raf(time);
-      rafId = requestAnimationFrame(raf);
-    };
-
-    rafId = requestAnimationFrame(raf);
+    frame.update(update, true);
 
     return () => {
-      cancelAnimationFrame(rafId);
+      cancelFrame(update);
       lenis.destroy();
     };
   }, []);
