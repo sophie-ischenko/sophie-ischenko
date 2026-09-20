@@ -1537,7 +1537,7 @@ export default function Home() {
               "
             >
               <img
-                src="./Logo.svg"
+                src="./Logo_Fundament.svg"
                 alt="Fundament Studio"
                 className="h-32 w-auto md:h-40"
               />
