@@ -74,7 +74,7 @@ export function Layout({ children }: { children: ReactNode }) {
     className="pointer-events-auto"
   >
     <img
-      src="./Logo_klein.png"
+      src="./Logo_klein.svg"
       alt="Fundament Studio"
       className="h-22 w-auto"
     />
