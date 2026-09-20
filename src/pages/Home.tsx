@@ -27,8 +27,7 @@ export default function Home() {
   const clipPath = useTransform(section4Progress, [0, 0.4], ["inset(100% 0 0 0)", "inset(0% 0 0 0)"]);
 
   return (
-    <main className="relative w-full bg-[var(--theme-bg)] text-[var(--theme-text)] selection:bg-[var(--theme-accent)] selection:text-[var(--theme-bg)]" ref={containerRef}>
-      
+      <main className="relative w-full bg-[var(--theme-bg)] text-[var(--theme-text)] selection:bg-[var(--theme-accent)] selection:text-[var(--theme-bg)]" ref={containerRef}>      
       {/* 1. Intro */}
       <section aria-label="Intro" className="min-h-[90vh] flex flex-col justify-end pb-24 px-6 md:px-12 pt-32 relative border-b border-[var(--theme-border)]/30">
         <div className="absolute inset-0 pointer-events-none flex justify-between px-6 md:px-12 z-0 opacity-20">
