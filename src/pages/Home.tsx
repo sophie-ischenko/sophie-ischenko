@@ -61,7 +61,6 @@ export default function Home() {
         text-brand-text
         selection:bg-brand-blue
         selection:text-brand-text
-        overflow-hidden
       "
     >
 
