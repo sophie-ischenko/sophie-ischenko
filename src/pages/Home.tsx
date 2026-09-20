@@ -139,11 +139,11 @@ export default function Home() {
                 Informatik als Werkzeug der Gestaltungshoheit
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-text)]/40 shrink-0" />
                 Dekonstruktion technischer Systeme
               </li>
               <li className="flex items-start gap-3">
-                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-border)] shrink-0 opacity-60" />
+                <div className="mt-1.5 w-1.5 h-1.5 rounded-full bg-[var(--theme-text)]/40 shrink-0" />
                 Infrastruktur & digitale Unabhängigkeit
               </li>
             </ul>
@@ -240,7 +240,7 @@ export default function Home() {
                    </motion.div>
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/02</span>
-                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Architektonische Trennung</h4>
+                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Architektonische Trennung</h4>
                    </motion.div>
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/03</span>
@@ -248,7 +248,7 @@ export default function Home() {
                    </motion.div>
                    <motion.div className="flex gap-4 md:gap-6 group hover-trigger cursor-default">
                       <span className="font-mono text-[var(--theme-bg)] opacity-50 mt-1 text-xs">/04</span>
-                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-bg)] transition-colors">Engineering-Mentalität</h4>
+                      <h4 className="font-primary text-lg md:text-xl uppercase mb-1 md:mb-2 group-hover:text-[var(--theme-accent)] transition-colors">Engineering-Mentalität</h4>
                    </motion.div>
                  </div>
                </motion.div>
@@ -302,12 +302,12 @@ export default function Home() {
                Belegt die <span className="text-[var(--theme-text)] font-medium">technische Resilienz</span> für anspruchsvolle Projekte.
              </motion.div>
              <motion.div className="border-t border-[var(--theme-border)] pt-4">
-               Verbindet <span className="text-[var(--theme-border)] font-medium">Informatik mit Design-Anspruch</span> zu einer Einheit.
+               Verbindet <span className="text-[var(--theme-text)] font-medium">Informatik mit Design-Anspruch</span> zu einer Einheit.
              </motion.div>
            </div>
            
            <div className="p-6 border border-[var(--theme-border)]/30 bg-[var(--theme-accent)]/5 inline-flex items-center gap-4">
-             <Code className="w-8 h-8 text-[var(--theme-border)]" />
+             <Code className="w-8 h-8 text-[var(--theme-accent)]" />
              <p className="text-sm uppercase tracking-widest font-mono text-[var(--theme-text)] text-left">
                Fundament Studio: Die technische Basis für kreative Exzellenz.
              </p>
