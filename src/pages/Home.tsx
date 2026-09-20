@@ -15,13 +15,15 @@ import {
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
 
-  const { scrollYProgress } = useScroll({
-    target: containerRef,
-    offset: ['start start', 'end end'],
+  const introRef = useRef<HTMLElement>(null);
+
+  const { scrollYProgress: introProgress } = useScroll({
+    target: introRef,
+    offset: ['start start', 'end start'],
   });
 
-  const heroY = useTransform(scrollYProgress, [0, 0.2], [0, 100]);
-  const heroOpacity = useTransform(scrollYProgress, [0, 0.15], [1, 0]);
+  const heroY = useTransform(introProgress, [0, 1], [0, 100]);
+  const heroOpacity = useTransform(introProgress, [0, 0.8], [1, 0]);
 
   const horizontalRef = useRef<HTMLElement>(null);
 
@@ -68,6 +70,7 @@ export default function Home() {
       ========================================================= */}
 
       <section
+        ref={introRef}
         aria-label="Intro"
         className="
           min-h-[90vh]
