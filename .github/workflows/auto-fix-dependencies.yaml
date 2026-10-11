@@ -1,0 +1,101 @@
+
+name: Auto Fix Dependencies
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  auto-fix:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run npm audit fix
+        run: npm audit fix
+        continue-on-error: true
+
+      - name: Check for dependency changes
+        id: changes
+        run: |
+          if git diff --quiet -- package.json package-lock.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No dependency changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Dependency changes detected."
+          fi
+
+      - name: Verify dependency installation
+        if: steps.changes.outputs.changed == 'true'
+        run: npm ci
+
+      - name: Run build
+        if: steps.changes.outputs.changed == 'true'
+        run: npm run build
+        env:
+          VITE_STRAPI_URL: ${{ secrets.VITE_STRAPI_URL }}
+          VITE_STRAPI_TOKEN: ${{ secrets.VITE_STRAPI_TOKEN }}
+
+      - name: Debug dependency changes
+        run: |
+          git status --short
+          git diff -- package.json package-lock.json
+
+      - name: Create Pull Request
+        id: cpr
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto-dependency-fixes
+          delete-branch: false
+          commit-message: "chore: automated security dependency fixes"
+          title: "Automated Dependency Security Fixes"
+          body: |
+            ## Automated Dependency Updates
+
+            npm audit fix was executed and the production build
+            was verified successfully.
+
+            Please review:
+            - Remaining npm audit findings
+            - Dependency compatibility
+            - Application behavior and UI regressions
+          labels: |
+            dependencies
+            security
+            automated
+
+      - name: Report result
+        if: always() && steps.changes.outputs.changed == 'true'
+        env:
+          PR_NUMBER: ${{ steps.cpr.outputs.pull-request-number }}
+          PR_URL: ${{ steps.cpr.outputs.pull-request-url }}
+        run: |
+          if [ -n "$PR_URL" ]; then
+            echo "Pull request: $PR_URL"
+          else
+            echo "No pull request URL returned."
+            echo "Check the Create Pull Request step above."
+          fi
